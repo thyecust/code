@@ -9,20 +9,16 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var e = ke("./_MISSING/SKILL-8cc0kwr3.md"); // thy
-var e = ke("./assets_named/thy_missing.md");
+var e = ke("./assets/SKILL-8cc0kwr3.md");
 var t = "./assets/template.html";
 var a = et(t, import.meta.dirname);
-// var r = ke("./_MISSING/SKILL-5vqnvygj.md"); // thy
-var r = ke("./assets_named/thy_missing.md");
+var r = ke("./assets/SKILL-5vqnvygj.md");
 var o = "./assets/template.html";
 var s = et(o, import.meta.dirname);
-// var i = ke("./_MISSING/SKILL-sq87gt02.md"); // thy
-var i = ke("./assets_named/thy_missing.md");
+var i = ke("./assets/SKILL-sq87gt02.md");
 // var n = ke("./_MISSING/template.html-j5g90adz.txt"); // thy
 var n = ke("./assets_named/thy_missing.md");
-// var l = ke("./_MISSING/SKILL-z3x847gz.md"); // thy
-var l = ke("./assets_named/thy_missing.md");
+var l = ke("./assets/SKILL-z3x847gz.md");
 var h = "./assets/template.html";
 var d = et(h, import.meta.dirname);
 var Z = { dashboard: e, report: l, "data-table": r, explainer: i },

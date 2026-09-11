@@ -21,8 +21,7 @@ var n = ke("./assets_named/thy_missing.md");
 var r = ke("./assets_named/thy_missing.md");
 // var i = ke("./_MISSING/tui-93b0fcsh.md"); // thy
 var i = ke("./assets_named/thy_missing.md");
-// var o = ke("./_MISSING/SKILL-9ddmsnpa.md"); // thy
-var o = ke("./assets_named/thy_missing.md");
+var o = ke("./assets/SKILL-9ddmsnpa.md");
 var q = o,
   F = {
     "examples/cli.md": e,

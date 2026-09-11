@@ -9,8 +9,7 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var s = ke("./_MISSING/SKILL-3b8ea659.md"); // thy
-var s = ke("./assets_named/thy_missing.md");
+var s = ke("./assets/SKILL-3b8ea659.md");
 var i = "./assets/decisions-script.html";
 var e = et(i, import.meta.dirname);
 var a = "./assets/component.css";
