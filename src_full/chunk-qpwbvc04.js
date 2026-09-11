@@ -204679,7 +204679,7 @@ Date: ${fnr()}`,
       fh("willow_tern", () => FZo(d)),
       fh("autonomy_append", () => UZo(y, d)),
       fh("endconv_deferred_hint", () => {
-        let ye = import.meta.require("./_MISSING/chunk-45zc0t2z.js"),
+        let ye = import.meta.require("./chunk-45zc0t2z.js"),
           xe = ZBe();
         return U.has(ye.END_CONVERSATION_TOOL_NAME) && xe !== void 0
           ? ye.getDeferredHintSection(xe)

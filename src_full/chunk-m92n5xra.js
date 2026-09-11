@@ -2554,7 +2554,7 @@ function G(t, o) {
 var a = G(VI, D),
   yI = {},
   Kn = G(yI, null),
-  hI = (await import("./chunk-e6a5hsbm.js")).udsInboxShape,
+  hI = import.meta.require("./chunk-e6a5hsbm.js").udsInboxShape,
   zS = G(hI, null);
 export {
   Gx,

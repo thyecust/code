@@ -4192,17 +4192,17 @@ function mP(l) {
 }
 var ST = {
     name: import.meta.require("./chunk-zma8dqmd.js").SEARCH_MCP_REGISTRY_TOOL_NAME,
-    ui: import.meta.require("./_MISSING/chunk-ha0ptsc3.js"),
+    ui: import.meta.require("./chunk-ha0ptsc3.js"),
   },
   UT = {
     name: import.meta.require("./chunk-3df4rfhq.js").SUGGEST_CONNECTORS_TOOL_NAME,
-    ui: import.meta.require("./_MISSING/chunk-kvmcrswz.js"),
+    ui: import.meta.require("./chunk-kvmcrswz.js"),
   },
   NT = null,
   AT = null,
   LT = {
     name: import.meta.require("./chunk-k47vkebg.js").LIST_CONNECTORS_TOOL_NAME,
-    ui: import.meta.require("./_MISSING/chunk-30ykd08n.js"),
+    ui: import.meta.require("./chunk-30ykd08n.js"),
   },
   OT = null,
   IT = null,
@@ -4211,7 +4211,7 @@ var ST = {
   DT = null,
   Ql = {
     name: import.meta.require("./chunk-benbxtj2.js").WORKFLOW_TOOL_NAME,
-    ui: import.meta.require("./_MISSING/chunk-e2xxsnsg.js"),
+    ui: import.meta.require("./chunk-e2xxsnsg.js"),
   },
   Qc = null,
   As = import.meta.require("./chunk-ena9wv7h.js"),
@@ -4220,11 +4220,11 @@ var ST = {
   xn = {
     name: import.meta.require("./chunk-x6shef4m.js").ARTIFACT_TOOL_NAME,
     names: import.meta.require("./chunk-x6shef4m.js"),
-    ui: import.meta.require("./_MISSING/chunk-cn2y3gcd.js"),
+    ui: import.meta.require("./chunk-cn2y3gcd.js"),
   },
   BT = {
     name: import.meta.require("./chunk-rjshz8f0.js").END_CONVERSATION_TOOL_NAME,
-    ui: import.meta.require("./_MISSING/chunk-jeep599s.js"),
+    ui: import.meta.require("./chunk-jeep599s.js"),
   },
   jT = {
     [_t]: {

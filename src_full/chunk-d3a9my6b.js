@@ -15,7 +15,7 @@ var r = null,
   e = {
     name: import.meta.require("./chunk-x6shef4m.js").ARTIFACT_TOOL_NAME,
     names: import.meta.require("./chunk-x6shef4m.js"),
-    ui: import.meta.require("./_MISSING/chunk-cn2y3gcd.js"),
+    ui: import.meta.require("./chunk-cn2y3gcd.js"),
   },
   M = [
     _t,
