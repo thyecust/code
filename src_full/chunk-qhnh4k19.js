@@ -7,87 +7,9 @@
 // (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
 
 // Version: 2.1.259
-import { FCr, nLt, txe, chr, PFn, uhr, dhr, rLt, RQt, oLt, sle } from "./chunk-eawgw36a.js";
-import "./chunk-wpg07n0k.js";
-import "./chunk-q7mw9qbe.js";
-import "./chunk-b1q84k0b.js";
-import "./chunk-0fhj8zqm.js";
-import "./chunk-kctex2a5.js";
-import "./chunk-spq6f9bx.js";
-import "./chunk-g25gx2pg.js";
-import "./chunk-wd0td2rs.js";
-import "./chunk-nak8qzmf.js";
-import "./chunk-q5c5a7cf.js";
-import "./chunk-f1sf39vv.js";
-import "./chunk-tz7j8gp0.js";
-import "./chunk-rfjqgh1w.js";
-import "./chunk-j46hdw8h.js";
-import "./chunk-er3vegm6.js";
-import "./chunk-3ye1v0g2.js";
-import "./chunk-k3yy1efd.js";
-import "./chunk-ne29pfk2.js";
-import "./chunk-b6r8zdy5.js";
-import "./chunk-0y8vm6va.js";
-import "./chunk-g162cr20.js";
-import "./chunk-e1vsnv9j.js";
-import "./chunk-1hjsy6d2.js";
-import "./chunk-qfwnyscs.js";
-import "./chunk-4jxzmesc.js";
-import "./chunk-sgq4jt66.js";
-import "./chunk-85mjac4q.js";
-import "./chunk-mhx2enzs.js";
-import "./chunk-aejk3fcb.js";
-import "./chunk-8p3wyg4e.js";
-import "./chunk-g26yx69g.js";
-import "./chunk-018mx13n.js";
-import "./chunk-2f04hg0t.js";
-import "./chunk-z98654x2.js";
-import "./chunk-tgjjqfz6.js";
-import "./chunk-57r9gvjy.js";
-import "./chunk-a0rk6xcw.js";
-import "./chunk-s2qjm80t.js";
-import "./chunk-pg32k5cc.js";
-import "./chunk-y9yvkcas.js";
-import "./chunk-h8z84shc.js";
-import "./chunk-5z29rkb5.js";
-import "./chunk-2kd50vvr.js";
-import "./chunk-f7zydv5a.js";
-import "./chunk-xk2tbyg9.js";
-import "./chunk-tdg690ym.js";
-import "./chunk-p97n3qf8.js";
-import "./chunk-zxkkdwp1.js";
-import "./chunk-435ekv5k.js";
-import "./chunk-szxazvwk.js";
-import "./chunk-rqapqcqk.js";
-import "./chunk-4btmh39m.js";
-import "./chunk-q4779pd8.js";
-import "./chunk-1jntcv5v.js";
-import "./chunk-19edp2ga.js";
-import "./chunk-gn1spzts.js";
-import "./chunk-bmdaq51f.js";
-import "./chunk-jejcqxww.js";
-import "./chunk-88pj9ctr.js";
-import "./chunk-sp75kwzj.js";
-import "./chunk-614d4vc2.js";
-import "./chunk-htmwsbwk.js";
-import "./chunk-8m04bdtt.js";
-import "./chunk-zeh1n4wq.js";
-import "./chunk-9bm3jpvn.js";
-import "./chunk-gmdrem8f.js";
-import "./chunk-5j20p3d9.js";
-import "./chunk-r35c3ahr.js";
-import "./chunk-v1drnc5k.js";
-import "./chunk-4135bc7y.js";
-import "./chunk-4ft7fr94.js";
-import "./chunk-h1cpgn94.js";
-import "./chunk-gk1fpg5h.js";
-import "./chunk-mndeg8s1.js";
-import "./chunk-5x3q9dya.js";
-import "./chunk-b4nvhxkz.js";
-import "./chunk-eby52mzm.js";
-import "./chunk-rpq8fknf.js";
-import "./chunk-m86gk47f.js";
-import "./chunk-xhds8n6d.js";
+import { fRr, pRr, mRr, Klt, Ylt } from "./chunk-f7x8yy19.js";
+import "./chunk-04qfkkcp.js";
+import "./chunk-xz96w3y6.js";
 import "./chunk-qpwbvc04.js";
 import "./chunk-h3nnndyy.js";
 import "./chunk-bzm4f2ge.js";
@@ -206,7 +128,6 @@ import "./chunk-at3x5y7v.js";
 import "./chunk-a3w4apvy.js";
 import "./chunk-qjj8swk2.js";
 import "./chunk-jqjjqb8p.js";
-import "./chunk-fkx9wvrt.js";
 import "./chunk-0697cd2s.js";
 import "./chunk-mrsbyrhq.js";
 import "./chunk-0h1h2vpe.js";
@@ -214,7 +135,6 @@ import "./chunk-b4cswg8c.js";
 import "./chunk-kxcfgh7d.js";
 import "./chunk-8gvda1c5.js";
 import "./chunk-t8rh9pbw.js";
-import "./chunk-nfg8fsm7.js";
 import "./chunk-9fjy6xex.js";
 import "./chunk-esn2chqn.js";
 import "./chunk-1qpkzqbm.js";
@@ -253,6 +173,7 @@ import "./chunk-rjxafr3h.js";
 import "./chunk-7r03n5n9.js";
 import "./chunk-77152aqa.js";
 import "./chunk-5t2g7ar8.js";
+import "./chunk-vdb853cm.js";
 import "./chunk-7xxnrgeg.js";
 import "./chunk-ta3hhm0z.js";
 import "./chunk-k1wkanbv.js";
@@ -303,15 +224,9 @@ import "./chunk-kn2qhfka.js";
 import "./chunk-jdw11prg.js";
 import "./chunk-1mrhsd7s.js";
 export {
-  oLt as BackgroundAndExit,
-  nLt as COORDINATOR_FORK_REFUSAL,
-  FCr as call,
-  RQt as canBackgroundSession,
-  sle as deriveBackgroundSeed,
-  rLt as forkSessionToBackground,
-  uhr as queueRescueRow,
-  PFn as removeSnapshotJobDir,
-  chr as snapshotParentTranscript,
-  txe as spawnBackgroundFork,
-  dhr as writeAdoptHandoff,
+  mRr as handleElicitationRequest,
+  fRr as parseRelatedTaskMetadata,
+  pRr as registerElicitationHandler,
+  Klt as runElicitationHooks,
+  Ylt as runElicitationResultHooks,
 };
