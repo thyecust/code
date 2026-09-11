@@ -22,7 +22,7 @@ var L = W(_y(), 1),
   O = (e, r, t) => {
     let o = {
       EcsContainer: async (s) => {
-        let { fromHttp: n } = await import("./_MISSING/chunk-e1hrr0p6.js"),
+        let { fromHttp: n } = await import("./chunk-e1hrr0p6.js"),
           { fromContainerMetadata: i } = await import("./chunk-m2dgygk1.js");
         return (
           t?.debug("@aws-sdk/credential-provider-ini - credential_source is EcsContainer"),
@@ -36,7 +36,7 @@ var L = W(_y(), 1),
       },
       Environment: async (s) => {
         t?.debug("@aws-sdk/credential-provider-ini - credential_source is Environment");
-        let { fromEnv: n } = await import("./_MISSING/chunk-gxekwxc7.js");
+        let { fromEnv: n } = await import("./chunk-gxekwxc7.js");
         return async () => n(s)().then(S);
       },
     };
@@ -72,7 +72,7 @@ var K = (e, { profile: r = "default", logger: t } = {}) =>
     let n = r[e],
       { source_profile: i, region: u } = n;
     if (!t.roleAssumer) {
-      let { getDefaultRoleAssumer: l } = await import("./_MISSING/chunk-8nd3btrv.js").then((m) =>
+      let { getDefaultRoleAssumer: l } = await import("./chunk-8nd3btrv.js").then((m) =>
         W(m.default, 1),
       );
       t.roleAssumer = l(
@@ -382,14 +382,14 @@ var J = (e) => Boolean(e && e.login_session),
 var z = W(_y(), 1),
   V = (e) => Boolean(e) && typeof e === "object" && typeof e.credential_process === "string",
   X = async (e, r) =>
-    import("./_MISSING/chunk-dpmw3xrf.js").then(({ fromProcess: t }) =>
+    import("./chunk-dpmw3xrf.js").then(({ fromProcess: t }) =>
       t({ ...e, profile: r })().then((o) =>
         z.setCredentialFeature(o, "CREDENTIALS_PROFILE_PROCESS", "v"),
       ),
     );
 var x = W(_y(), 1),
   Q = async (e, r, t = {}) => {
-    let { fromSSO: o } = await import("./_MISSING/chunk-k6y6s3hd.js");
+    let { fromSSO: o } = await import("./chunk-k6y6s3hd.js");
     return o({
       profile: e,
       logger: t.logger,
@@ -434,7 +434,7 @@ var te = W(_y(), 1),
     typeof e.role_arn === "string" &&
     ["undefined", "string"].indexOf(typeof e.role_session_name) > -1,
   oe = async (e, r) =>
-    import("./_MISSING/chunk-x3mqmvej.js").then(({ fromTokenFile: t }) =>
+    import("./chunk-x3mqmvej.js").then(({ fromTokenFile: t }) =>
       t({
         webIdentityTokenFile: e.web_identity_token_file,
         roleArn: e.role_arn,

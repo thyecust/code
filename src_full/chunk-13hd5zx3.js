@@ -64,7 +64,7 @@ var d = W(lu(), 1),
         { tryNextLink: h, logger: l },
       );
     let { accessToken: C } = g,
-      { SSOClient: A, GetRoleCredentialsCommand: p } = await import("./_MISSING/chunk-egp7f571.js"),
+      { SSOClient: A, GetRoleCredentialsCommand: p } = await import("./chunk-egp7f571.js"),
       w =
         i ||
         new A(

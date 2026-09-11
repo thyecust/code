@@ -10173,7 +10173,7 @@ function Q_(e, n, o, d, y, R, A, D, k, w, K, B, T, z, se, G, H, Pe, pe, xe) {
       setIdleLastTurnTextProvider: r,
       notePeerIdleStatus: U,
       enqueueIdleNoticesForModel: ae,
-    } = import.meta.require("./_MISSING/chunk-r64r4pef.js");
+    } = import.meta.require("./chunk-r64r4pef.js");
     (p((q) => {
       if (
         (t(`[headless] cross-session idle notice: kind=${q.kind} label=${zu(q.label)}`),
@@ -13515,7 +13515,7 @@ function Q_(e, n, o, d, y, R, A, D, k, w, K, B, T, z, se, G, H, Pe, pe, xe) {
                 (f("device_hooks_register", O.reason),
                   He(r, `hook_forwarding_disabled: ${O.reason}`));
               else {
-                qa ??= import("./_MISSING/chunk-2ws7wnzx.js")
+                qa ??= import("./chunk-2ws7wnzx.js")
                   .then(async (F) =>
                     F.createDeviceHooksWorker(
                       await F.productionDeviceHooksWorkerDeps({
@@ -13549,7 +13549,7 @@ function Q_(e, n, o, d, y, R, A, D, k, w, K, B, T, z, se, G, H, Pe, pe, xe) {
               if (!O.admitted)
                 (f("remote_tools_announce", O.reason), He(r, `remote_tools_disabled: ${O.reason}`));
               else {
-                $a ??= import("./_MISSING/chunk-1emfyx8s.js")
+                $a ??= import("./chunk-1emfyx8s.js")
                   .then(async (F) =>
                     F.createRemoteToolsAnnounceWorker(
                       await F.productionRemoteToolsAnnounceDeps({

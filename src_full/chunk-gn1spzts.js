@@ -42,7 +42,7 @@ function Jb(r) {
 }
 async function gbe() {
   try {
-    let { flushAnalyticsSinks: r } = await import("./_MISSING/chunk-28xad0z8.js");
+    let { flushAnalyticsSinks: r } = await import("./chunk-28xad0z8.js");
     await r();
   } catch {}
 }

@@ -53,7 +53,7 @@ function f(e) {
   return (
     (e.audioNapiPromise ??= (async () => {
       let o = Date.now(),
-        r = await import("./_MISSING/chunk-7j3t5h77.js");
+        r = await import("./chunk-7j3t5h77.js");
       return (
         r.isNativeAudioAvailable(),
         (e.audioNapi = r),

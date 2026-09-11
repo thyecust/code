@@ -696,7 +696,7 @@ ${e}`;
   });
 }
 function ht() {
-  return import("./_MISSING/chunk-1n41ghw3.js");
+  return import("./chunk-1n41ghw3.js");
 }
 var On =
   "Embed reusable artifact components in any HTML artifact - first entry: the workshop decision component (clickable option rows backed by a machine-readable record the session reads back). Use when a non-workshop artifact should carry decisions the reader answers from the published page, or to look up a component's exact scripts, styles, markup contract, and composition limits.";
@@ -738,7 +738,7 @@ function Ne() {
     isEnabled: cx,
     userInvocable: !1,
     async getPromptForCommand() {
-      let { SKILL_MD: e } = await import("./_MISSING/chunk-034jwyqw.js");
+      let { SKILL_MD: e } = await import("./chunk-034jwyqw.js");
       return [{ type: "text", text: _Gn(ii(e).content.trimStart().replace(Dn, Un)) }];
     },
   });
@@ -753,13 +753,13 @@ function Me() {
     isEnabled: cx,
     userInvocable: !0,
     async getPromptForCommand() {
-      let { SKILL_MD: e } = await import("./_MISSING/chunk-rhwcqg9f.js");
+      let { SKILL_MD: e } = await import("./chunk-rhwcqg9f.js");
       return [{ type: "text", text: ii(e).content.trimStart() }];
     },
   });
 }
 function mt() {
-  return import("./_MISSING/chunk-w6evfw4g.js");
+  return import("./chunk-w6evfw4g.js");
 }
 var $e = `
 
@@ -2602,7 +2602,7 @@ function ho() {
   });
 }
 function po() {
-  return import("./_MISSING/chunk-tye9n2jx.js");
+  return import("./chunk-tye9n2jx.js");
 }
 var Ki =
   "Create a new Cowork plugin from scratch, or customize an installed plugin for a specific organization. Use when: customize plugin, set up plugin, configure plugin, tailor plugin, adjust plugin settings, customize plugin connectors, customize plugin skill, tweak plugin, modify plugin configuration, create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin.";
@@ -2633,7 +2633,7 @@ ${i}`);
   });
 }
 function fo() {
-  return import("./_MISSING/chunk-cxfswbdt.js");
+  return import("./chunk-cxfswbdt.js");
 }
 var Yi =
   'Use this skill whenever you are about to create ANY chart, graph, plot, dashboard, or data visualization, in ANY output medium \u2014 an HTML or React artifact, inline SVG, plotting code in any library (matplotlib, plotly, d3, Recharts, \u2026), an image/PNG you will render and upload, or a chart shared into Slack. Read it BEFORE writing the first line of chart code, choosing chart colors, building a stat tile / meter / KPI row, or laying out a dashboard. When the destination is a first-party document connector (host-designated, never self-described) that renders live charts, hand it the rows (inline, or as an uploaded data file the chart cites) rather than a rendered PNG/SVG \u2014 a picture of a chart loses hover, data inspection and per-value comments. Produces visualizations that read as one system \u2014 elegant, accessible, consistent in light and dark \u2014 using a brand-neutral placeholder palette you swap for your own. Teaches a design-system-agnostic method: a form heuristic, a color formula with a runnable validator, mark specs, and interaction rules. A validated default palette is documented in `references/palette.md` \u2014 swap that file\'s values for your brand\'s. Triggers on: "chart", "graph", "plot", "data viz", "visualization", "dashboard", "analytics", "visualize data", "categorical colors", "sequential / diverging palette", "stat tile", "sparkline", "heatmap", "legend", "axis", "tooltip", "chart colors", "color by series".';
@@ -2814,7 +2814,7 @@ async function vo(e, o) {
   }
 }
 function Eo() {
-  return import("./_MISSING/chunk-xg0nys8s.js");
+  return import("./chunk-xg0nys8s.js");
 }
 var zi =
   'Push a React design system to claude.ai/design. This runs a converter that bundles the real component code (from Storybook or a bare package) and uploads it. Use when the user runs /design-sync or says "sync my design system to Claude Design".';
@@ -3629,7 +3629,7 @@ function Cs() {
   return RAn() && VE();
 }
 function $o() {
-  return import("./_MISSING/chunk-b7xbggvj.js");
+  return import("./chunk-b7xbggvj.js");
 }
 var Es = [
   {
@@ -3677,7 +3677,7 @@ function _s() {
   return EAn() && VE();
 }
 function Fo() {
-  return import("./_MISSING/chunk-wwdvgv2t.js");
+  return import("./chunk-wwdvgv2t.js");
 }
 var Ss =
     "Create a whiteboard artifact - a shared sketch canvas for wireframe-fidelity diagrams (boxes, databases, decision diamonds, sticky notes, arrows, freehand pen, text) that you and the user both draw on. The user sketches and hits Publish; this session is woken, reads the board (scene data plus a picture of it), and answers by drawing back on the same canvas - or plans from what they drew. Use when the user asks for a whiteboard, wants to sketch a design or diagram to talk through, or wants to draw something and have you answer on the canvas or plan from it. Only for CREATING a new whiteboard; an existing one is read and answered through its published artifact.",
@@ -3709,7 +3709,7 @@ function Ps() {
   return AAn() && VE() && jce();
 }
 function Ho() {
-  return import("./_MISSING/chunk-e4pn3vrm.js");
+  return import("./chunk-e4pn3vrm.js");
 }
 var As =
   "Create a multiplayer whiteboard artifact - a live sketch canvas for wireframe-fidelity diagrams (boxes, databases, decision diamonds, sticky notes, arrows, freehand, text, pasted images) where everyone with it open sees each other's strokes and cursors as they happen, the board shows whether this session is present, and you can draw on it live as well as answer a Send. Use when the user asks for a multiplayer or live whiteboard, wants to sketch with other people watching, or wants to see you draw in real time. Only for CREATING a new board; an existing one is read and answered through its published artifact.";
@@ -3753,7 +3753,7 @@ function Wo() {
     userInvocable: !0,
     async getPromptForCommand(e, o) {
       if (!o.options?.isSkillPreload && !o.options?.modelScheduledOrigin) FKn();
-      let { SKILL_MD: n } = await import("./_MISSING/chunk-w109a631.js"),
+      let { SKILL_MD: n } = await import("./chunk-w109a631.js"),
         i = ii(n).content.trimStart();
       if (VE()) i += Ls;
       if (e.trim())
@@ -3912,7 +3912,7 @@ function Vo() {
   });
 }
 function zo() {
-  return import("./_MISSING/chunk-dk9b8tay.js");
+  return import("./chunk-dk9b8tay.js");
 }
 var Ms =
     "Create a PR review artifact - a structured review briefing for a GitHub pull request (synthesis title and bottom line, a recommendation, reviewer judgment calls, a visual explainer, signals, and blind spots), published as a shareable page. Use when the user asks to review a PR as an artifact, publish a PR review page, or share a review briefing. NOT a narrative walkthrough. Only for CREATING a new artifact; edits to an existing artifact modify its HTML directly.",
@@ -4649,7 +4649,7 @@ ${e}`;
   });
 }
 function an() {
-  return import("./_MISSING/chunk-74tyb7z5.js");
+  return import("./chunk-74tyb7z5.js");
 }
 var Ws =
   "Verify that a code change actually does what it's supposed to by exercising it end-to-end and observing behavior \u2014 drive the affected flow, not just tests or typecheck. Run before committing nontrivial changes; bootstraps this repo's project verify skill if none exists yet. Don't invoke it on a diff that only touches tests, docs, or other code with no runtime surface to drive (a change to product source always has one) \u2014 there's nothing to observe.";

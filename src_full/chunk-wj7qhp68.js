@@ -112,7 +112,7 @@ import "./chunk-nc8ww32a.js";
 import "./chunk-my1n9ey3.js";
 import "./chunk-v10h0yg2.js";
 function v() {
-  return import("./_MISSING/chunk-2cp7cx1s.js");
+  return import("./chunk-2cp7cx1s.js");
 }
 var S = "claude-code-docs",
   A = `Answer questions about Claude Code itself: commands, flags, settings, hooks, skills, MCP servers, subagents, IDE integrations, sandboxing, deployment, and Claude Tag (Claude in Slack). Verifies against the running build before recommending any command, flag, or setting.

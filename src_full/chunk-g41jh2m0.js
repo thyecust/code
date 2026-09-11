@@ -34,7 +34,7 @@ async function H5() {
   if (F) return F.default;
   if (Ll())
     try {
-      let i = await import("./_MISSING/chunk-74m6237y.js"),
+      let i = await import("./chunk-74m6237y.js"),
         n = i.sharp || i.default;
       return ((F = { default: n }), n);
     } catch {
@@ -42,7 +42,7 @@ async function H5() {
         "Native image processor not available; no image processing will be available (sharp is stubbed in native builds)",
       );
     }
-  let e = await import("./_MISSING/chunk-n24xrrd4.js").then((m) => W(m.default, 1)),
+  let e = await import("./chunk-n24xrrd4.js").then((m) => W(m.default, 1)),
     r = ee(e);
   return ((F = { default: r }), r);
 }

@@ -98,7 +98,7 @@ var t = {
     supportsNonInteractive: !0,
     description: "Stop this background session; transcript and worktree are kept",
     isEnabled: St,
-    load: () => import("./_MISSING/chunk-qhy0pdb8.js"),
+    load: () => import("./chunk-qhy0pdb8.js"),
   },
   r = t;
 export { r as default, s as stopNonInteractive };

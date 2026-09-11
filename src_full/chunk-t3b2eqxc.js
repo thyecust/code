@@ -57,7 +57,7 @@ var i = W(lu(), 1),
       e.logger?.debug(
         "@aws-sdk/credential-provider-node - remoteProvider::fromHttp/fromContainerMetadata",
       );
-      let { fromHttp: t } = await import("./_MISSING/chunk-e1hrr0p6.js");
+      let { fromHttp: t } = await import("./chunk-e1hrr0p6.js");
       return i.chain(t(e), n(e));
     }
     if (process.env[f] && process.env[f] !== "false")
@@ -149,22 +149,22 @@ var v = !1,
               "Skipping SSO provider in default chain (inputs do not include SSO fields).",
               { logger: e.logger },
             );
-          let { fromSSO: a } = await import("./_MISSING/chunk-k6y6s3hd.js");
+          let { fromSSO: a } = await import("./chunk-k6y6s3hd.js");
           return a(e)(o);
         },
         async (o) => {
           e.logger?.debug("@aws-sdk/credential-provider-node - defaultProvider::fromIni");
-          let { fromIni: r } = await import("./_MISSING/chunk-8z59e5he.js");
+          let { fromIni: r } = await import("./chunk-8z59e5he.js");
           return r(e)(o);
         },
         async (o) => {
           e.logger?.debug("@aws-sdk/credential-provider-node - defaultProvider::fromProcess");
-          let { fromProcess: r } = await import("./_MISSING/chunk-dpmw3xrf.js");
+          let { fromProcess: r } = await import("./chunk-dpmw3xrf.js");
           return r(e)(o);
         },
         async (o) => {
           e.logger?.debug("@aws-sdk/credential-provider-node - defaultProvider::fromTokenFile");
-          let { fromTokenFile: r } = await import("./_MISSING/chunk-x3mqmvej.js");
+          let { fromTokenFile: r } = await import("./chunk-x3mqmvej.js");
           return r(e)(o);
         },
         async () => (

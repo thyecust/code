@@ -3905,7 +3905,7 @@ class zt {
         ...(this.unrestrictedPaths !== void 0 ? { unrestrictedPaths: this.unrestrictedPaths } : {}),
         ...(this.maxFileBytes !== void 0 ? { maxFileBytes: this.maxFileBytes } : {}),
       },
-      d = await import("./_MISSING/chunk-brzazzse.js"),
+      d = await import("./chunk-brzazzse.js"),
       p = async () => {};
     try {
       p = await d.setupSkills(i);

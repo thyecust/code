@@ -12196,7 +12196,7 @@ var u_ = ["stylesheet", "stale-banner", "stamp-control"];
 function f_() {
   let e = ue().prReviewTemplate;
   return (
-    (e.parts ??= Promise.all([import("./_MISSING/chunk-dk9b8tay.js"), f0e()]).then(([n, r]) => {
+    (e.parts ??= Promise.all([import("./chunk-dk9b8tay.js"), f0e()]).then(([n, r]) => {
       let o = n.SKILL_FILES["template.html"] ?? "",
         d = new Map(h9e(o).map((p) => [An(p), p])),
         y = {

@@ -942,7 +942,7 @@ function kue(e) {
 function f0e() {
   let e = ue().prReviewTemplate;
   return (
-    (e.chrome ??= import("./_MISSING/chunk-dk9b8tay.js").then((n) =>
+    (e.chrome ??= import("./chunk-dk9b8tay.js").then((n) =>
       js(n.SKILL_FILES["template.html"] ?? ""),
     )),
     e.chrome

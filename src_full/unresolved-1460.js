@@ -287,9 +287,9 @@ import "./chunk-g162cr20.js";
 import "./chunk-e1vsnv9j.js";
 import "./chunk-qfwnyscs.js";
 import "./chunk-sgq4jt66.js";
-// import "./_MISSING/chunk-f7zydv5a.js"; // thy
+// import "./chunk-f7zydv5a.js"; // thy
 import { e, r } from "./chunk-g3erx2ps.js";
-// import "./_MISSING/chunk-19edp2ga.js"; // thy
+// import "./chunk-19edp2ga.js"; // thy
 import "./chunk-6xg5ectd.js";
 import "./chunk-jejcqxww.js";
 import "./chunk-hpwwgy4t.js";
@@ -565,7 +565,7 @@ function Ge(bn) {
         (s("tengu_spend_limit_nudge_wait", {}), S(void 0, { display: "skip" }));
       else if (we === "upgrade")
         (s("tengu_spend_limit_nudge_upgrade", {}),
-          import("./_MISSING/chunk-ennsbt0j.js")
+          import("./chunk-ennsbt0j.js")
             .then((ht) => {
               let { callUpgradeFromSurface: On } = ht;
               return On(S, C, "spend_limit_options_menu");

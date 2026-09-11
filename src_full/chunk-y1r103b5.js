@@ -477,7 +477,7 @@ async function Fo(t) {
         region: t.region,
         ...(i && { credentials: i }),
       },
-      { STSClient: u, GetCallerIdentityCommand: m } = await import("./_MISSING/chunk-q1rs4bvd.js"),
+      { STSClient: u, GetCallerIdentityCommand: m } = await import("./chunk-q1rs4bvd.js"),
       g = await new u(c).send(new m({})),
       w = g.Arn ?? g.UserId ?? "(unknown)",
       { BedrockClient: b, ListInferenceProfilesCommand: h } = await import("./chunk-e0prdkba.js"),

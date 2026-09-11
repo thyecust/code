@@ -12864,7 +12864,7 @@ function we(e, t, r = {}) {
       return {
         openBrowser: async (ue) => {
           await (
-            await import("./_MISSING/chunk-2hswhn75.js")
+            await import("./chunk-2hswhn75.js")
           ).default(ue, { wait: !0, newInstance: !0 });
         },
         scopes: _,

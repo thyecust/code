@@ -93,7 +93,7 @@ var s = {
     description: "List subagents, teammates, and other Claude sessions you can message",
     supportsNonInteractive: !0,
     isEnabled: () => Ko(),
-    load: () => import("./_MISSING/chunk-epb6q3tb.js"),
+    load: () => import("./chunk-epb6q3tb.js"),
   },
   a = s;
 export { a as default };

@@ -224,10 +224,10 @@ import "./chunk-yj1dr0q5.js";
 import "./chunk-82z04ms9.js";
 import "./chunk-j46hdw8h.js";
 import "./chunk-sgq4jt66.js";
-// import "./_MISSING/chunk-f7zydv5a.js"; // thy
+// import "./chunk-f7zydv5a.js"; // thy
 import { B, e, r } from "./chunk-g3erx2ps.js";
 import "./chunk-rqapqcqk.js";
-// import "./_MISSING/chunk-19edp2ga.js"; // thy
+// import "./chunk-19edp2ga.js"; // thy
 import "./chunk-jejcqxww.js";
 import "./chunk-88pj9ctr.js";
 import "./chunk-sp75kwzj.js";
@@ -453,8 +453,8 @@ ${M}`
         };
       if (!xs())
         Promise.all([
-          import("./_MISSING/chunk-petkz6g3.js"),
-          import("./_MISSING/chunk-6xqn9p0r.js"),
+          import("./chunk-petkz6g3.js"),
+          import("./chunk-6xqn9p0r.js"),
         ])
           .then(([{ spawnForkFromDirective: g }, { hasPermissionsToUseTool: E }]) =>
             g(s, T, T.canUseTool ?? E, f, "btw"),

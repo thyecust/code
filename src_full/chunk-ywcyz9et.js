@@ -11,83 +11,83 @@ import "./chunk-x1rrg5j2.js";
 import "./chunk-jdw11prg.js";
 import "./chunk-56nvyfje.js";
 import "./chunk-1mrhsd7s.js";
+import { s } from "./chunk-9f9fskgc.js";
+import { S, u } from "./chunk-97tbrkcc.js";
 import "./chunk-kn2qhfka.js";
+import "./chunk-m7w5m1w6.js";
 import "./chunk-55w4bsdv.js";
 import "./chunk-9fysw8jv.js";
 import "./chunk-m92n5xra.js";
-import "./chunk-m7w5m1w6.js";
 import "./chunk-058caznt.js";
-import "./chunk-97tbrkcc.js";
 import "./chunk-fzpv8ev5.js";
 import "./chunk-xmrr4sh8.js";
 import "./chunk-ras23w04.js";
 import "./chunk-6rkpsn9e.js";
+import "./chunk-bx79h7g8.js";
 import "./chunk-ck0tqv1m.js";
-import { Fc } from "./chunk-1v541dwj.js";
-import "./chunk-x722nt0q.js";
-import "./chunk-9f9fskgc.js";
+import "./chunk-8mbwgjdd.js";
 import "./chunk-spz20jb6.js";
+import { PS, we, ie } from "./chunk-x722nt0q.js";
+import "./chunk-mzmfq60a.js";
 import "./chunk-616tsvrd.js";
+import "./chunk-5dw4kvcq.js";
+import "./chunk-ye42pw2j.js";
+import "./chunk-vdqz95a3.js";
 import "./chunk-n8g979s0.js";
 import "./chunk-mxy52vze.js";
 import "./chunk-zk8esmth.js";
-import "./chunk-bx79h7g8.js";
 import "./chunk-k1wkanbv.js";
 import "./chunk-7y5wjz4e.js";
-import "./chunk-vdqz95a3.js";
-import "./chunk-5dw4kvcq.js";
 import "./chunk-gxyczd8c.js";
 import "./chunk-h96shwz8.js";
 import "./chunk-ptdm1fhw.js";
 import "./chunk-gzwhm5vd.js";
 import "./chunk-nwzn6gxv.js";
 import "./chunk-enjww0fp.js";
-import "./chunk-mzmfq60a.js";
-import "./chunk-ye42pw2j.js";
 import "./chunk-0dkpd8qq.js";
 import "./chunk-67nd7etf.js";
 import "./chunk-7xxnrgeg.js";
 import "./chunk-rahwxqh8.js";
 import "./chunk-m0a16ehy.js";
 import "./chunk-rjxafr3h.js";
+import "./chunk-1v541dwj.js";
 import "./chunk-21dppk21.js";
 import "./chunk-edmcaynh.js";
-import "./chunk-a7a5sap3.js";
-import "./chunk-7r03n5n9.js";
-import "./chunk-35w62chd.js";
-import "./chunk-9pd12rac.js";
-import "./chunk-8trhjkwe.js";
-import "./chunk-xfn8hpdj.js";
-import "./chunk-8mbwgjdd.js";
 import "./chunk-wxd1scze.js";
 import "./chunk-77152aqa.js";
-import "./chunk-33da912m.js";
-import "./chunk-x67fwt53.js";
+import "./chunk-xfn8hpdj.js";
 import "./chunk-5t2g7ar8.js";
-import "./chunk-pwdby7t2.js";
-import "./chunk-vv5g97a8.js";
-import "./chunk-a0qeq8pm.js";
-import "./chunk-9qgz04yg.js";
-import "./chunk-b5ax9mbm.js";
+import "./chunk-0xd0k64r.js";
+import "./chunk-8trhjkwe.js";
 import "./chunk-4z2eqcrq.js";
 import "./chunk-b3pxzdmn.js";
+import "./chunk-pwdby7t2.js";
 import "./chunk-ta3hhm0z.js";
+import "./chunk-33da912m.js";
+import "./chunk-a0qeq8pm.js";
+import "./chunk-9qgz04yg.js";
+import "./chunk-vv5g97a8.js";
+import "./chunk-b5ax9mbm.js";
+import "./chunk-35w62chd.js";
 import "./chunk-2yqsfgga.js";
 import "./chunk-trntcdrz.js";
 import "./chunk-nmde69vm.js";
+import "./chunk-7r03n5n9.js";
+import "./chunk-9pd12rac.js";
+import "./chunk-a7a5sap3.js";
 import "./chunk-3r19kwqx.js";
 import "./chunk-55t63zqr.js";
 import "./chunk-j2rxdvy0.js";
-import "./chunk-0xd0k64r.js";
-import "./chunk-1qpkzqbm.js";
+import "./chunk-x67fwt53.js";
+import { Gf } from "./chunk-1qpkzqbm.js";
 import "./chunk-qjj8swk2.js";
 import "./chunk-t8rh9pbw.js";
-import { AVe, kVe, uce } from "./chunk-t73wj8h5.js";
+import { Y0t, X0t, AVe, J0t, vVe, Q0t, Z0t, kVe } from "./chunk-t73wj8h5.js";
 import "./chunk-esn2chqn.js";
 import "./chunk-9fjy6xex.js";
 import "./chunk-nfg8fsm7.js";
 import "./chunk-wyqz2xfr.js";
-import "./chunk-qpwbvc04.js";
+import { gX, FF, z0e, ig, sq } from "./chunk-qpwbvc04.js";
 import "./chunk-s98sa0gn.js";
 import "./chunk-r8hc3n2z.js";
 import "./chunk-zwtg7j89.js";
@@ -185,6 +185,59 @@ import "./chunk-at3x5y7v.js";
 import "./chunk-wfap5c8g.js";
 import "./chunk-xdnjqx4p.js";
 import "./chunk-zqpvt2b3.js";
+import { y } from "./chunk-szxazvwk.js";
+import "./chunk-85mjac4q.js";
+import "./chunk-p97n3qf8.js";
+import "./chunk-tgjjqfz6.js";
+import "./chunk-2kd50vvr.js";
+import { Ts } from "./chunk-3ye1v0g2.js";
+import "./chunk-tdg690ym.js";
+import { ye } from "./chunk-435ekv5k.js";
+import "./chunk-m86gk47f.js";
+import { o, n, ht, Yi } from "./chunk-h8z84shc.js";
+import "./chunk-fkx9wvrt.js";
+import "./chunk-b4nvhxkz.js";
+import "./chunk-5j20p3d9.js";
+import "./chunk-5x3q9dya.js";
+import "./chunk-eby52mzm.js";
+import "./chunk-zxkkdwp1.js";
+import "./chunk-1jntcv5v.js";
+import "./chunk-xk2tbyg9.js";
+import "./chunk-4btmh39m.js";
+import "./chunk-5z29rkb5.js";
+import { Re } from "./chunk-rfjqgh1w.js";
+import { Sd } from "./chunk-8p3wyg4e.js";
+import "./chunk-y9yvkcas.js";
+import "./chunk-pg32k5cc.js";
+import "./chunk-z98654x2.js";
+import "./chunk-s2qjm80t.js";
+import "./chunk-0y8vm6va.js";
+import "./chunk-4jxzmesc.js";
+import "./chunk-aejk3fcb.js";
+import "./chunk-mhx2enzs.js";
+import "./chunk-57r9gvjy.js";
+import "./chunk-a0rk6xcw.js";
+import "./chunk-er3vegm6.js";
+import "./chunk-1hjsy6d2.js";
+import "./chunk-b6r8zdy5.js";
+import { me } from "./chunk-k3yy1efd.js";
+import "./chunk-ne29pfk2.js";
+import { Pze, g9 } from "./chunk-xjsxvaq4.js";
+import { GGe, ait } from "./chunk-eawgw36a.js";
+import { $s } from "./chunk-82z04ms9.js";
+import "./chunk-j46hdw8h.js";
+import "./chunk-g162cr20.js";
+import "./chunk-e1vsnv9j.js";
+import "./chunk-qfwnyscs.js";
+import "./chunk-sgq4jt66.js";
+// import "./chunk-f7zydv5a.js"; // thy
+import { B, e, r } from "./chunk-g3erx2ps.js";
+// import "./chunk-19edp2ga.js"; // thy
+import "./chunk-jejcqxww.js";
+import "./chunk-zeh1n4wq.js";
+import "./chunk-gmdrem8f.js";
+import { ur, tr, U, k, d, j } from "./chunk-w71cs9yg.js";
+import "./chunk-rpq8fknf.js";
 import "./chunk-4amf009w.js";
 import "./chunk-zbjsms1x.js";
 import "./chunk-gt0sz7qx.js";
@@ -217,47 +270,432 @@ import "./chunk-f6ht09n5.js";
 import "./chunk-vckrj367.js";
 import "./chunk-zc7jwbz1.js";
 import "./chunk-50etkfry.js";
+import { zo } from "./chunk-hwm94hjq.js";
 import "./chunk-c6eb44np.js";
 import "./chunk-nc8ww32a.js";
 import "./chunk-my1n9ey3.js";
 import "./chunk-v10h0yg2.js";
 import "./chunk-5m6nm8br.js";
-var m = async (o, r, t) => {
-  let a = t ? `/${t}` : "/ultrareview",
-    { scopeArgs: s, applyFixes: n, postReview: i } = AVe(o),
-    e = await uce(s, {
-      confirm: !0,
-      singlePass: !0,
-      withholdOverageConsent: !0,
-      applyFixes: n,
-      postReview: i === !0,
-      overageConfirmed: r.isUltrareviewOverageConfirmed(),
-      markOverageConfirmed: () => r.markUltrareviewOverageConfirmed(),
-      context: r,
-      invocation: a,
+import { p } from "./chunk-qyvz15br.js";
+j();
+function Qe() {
+  return !ie().hasSeenUltrareviewTerms;
+}
+function Ye() {
+  return null;
+}
+function je(Te) {
+  return Te.hasSeenUltrareviewTerms ? Te : { ...Te, hasSeenUltrareviewTerms: !0 };
+}
+function fe(ho) {
+  let O = y(27),
+    { subtitle: pe, body: he, scope: ge, postOption: be, onProceed: ve, onCancel: E } = ho;
+  Ts("ultrareview-launch");
+  let { storageV5: Ce } = ye(),
+    [T] = d(Qe),
+    [Se, Ae] = d(!1),
+    [_e, go] = d(null),
+    Fe;
+  if (O[0] === p) ((Fe = new AbortController()), (O[0] = Fe));
+  else Fe = O[0];
+  let Le = k(Fe),
+    Ue;
+  if (O[1] !== T) ((Ue = () => (T ? GGe().catch(Ye) : null)), (O[1] = T), (O[2] = Ue));
+  else Ue = O[2];
+  let [Pe] = d(Ue),
+    q = k(!1),
+    Be;
+  if (O[3] !== E || O[4] !== ve || O[5] !== T || O[6] !== Ce)
+    ((Be = (Q) => {
+      if (q.current) {
+        return;
+      }
+      if (((q.current = !0), Q === "proceed" || Q === "proceed-post")) {
+        if (T) we(je, Ce);
+        (go(Q),
+          Ae(!0),
+          ve(Le.current.signal, { postToPR: Q === "proceed-post" }).catch(() => {
+            ((q.current = !1), Ae(!1));
+          }));
+      } else (Le.current.abort(), E());
+    }),
+      (O[3] = E),
+      (O[4] = ve),
+      (O[5] = T),
+      (O[6] = Ce),
+      (O[7] = Be));
+  else Be = O[7];
+  let ke = Be,
+    xe;
+  if (O[8] !== E)
+    ((xe = () => {
+      ((q.current = !0), Le.current.abort(), E());
+    }),
+      (O[8] = E),
+      (O[9] = xe));
+  else xe = O[9];
+  let A = xe,
+    Y;
+  if (O[10] !== pe) ((Y = pe ?? `${FF()} \xB7 Est. cost ${gX()} USD`), (O[10] = pe), (O[11] = Y));
+  else Y = O[11];
+  let Me;
+  if (O[12] === p) ((Me = e(n, { dimColor: !0, children: "Loading\u2026" })), (O[12] = Me));
+  else Me = O[12];
+  let z;
+  if (
+    O[13] !== he ||
+    O[14] !== A ||
+    O[15] !== ke ||
+    O[16] !== Se ||
+    O[17] !== _e ||
+    O[18] !== be ||
+    O[19] !== ge ||
+    O[20] !== T ||
+    O[21] !== Pe
+  )
+    ((z = e(ur, {
+      fallback: Me,
+      children: e(de, {
+        showTerms: T,
+        sourcePromise: Pe,
+        body: he,
+        scope: ge,
+        postOption: be,
+        retryFocus: _e,
+        isLaunching: Se,
+        onSelect: ke,
+        onCancel: A,
+      }),
+    })),
+      (O[13] = he),
+      (O[14] = A),
+      (O[15] = ke),
+      (O[16] = Se),
+      (O[17] = _e),
+      (O[18] = be),
+      (O[19] = ge),
+      (O[20] = T),
+      (O[21] = Pe),
+      (O[22] = z));
+  else z = O[22];
+  let He;
+  if (O[23] !== A || O[24] !== Y || O[25] !== z)
+    ((He = e(me, {
+      title: "Run ultrareview in the cloud?",
+      subtitle: Y,
+      onCancel: A,
+      children: z,
+    })),
+      (O[23] = A),
+      (O[24] = Y),
+      (O[25] = z),
+      (O[26] = He));
+  else He = O[26];
+  return He;
+}
+function de(bo) {
+  let V = y(24),
+    {
+      showTerms: I,
+      sourcePromise: Ge,
+      body: F,
+      scope: i,
+      postOption: D,
+      retryFocus: Oe,
+      isLaunching: Ne,
+      onSelect: K,
+      onCancel: Z,
+    } = bo,
+    ee = Ge ? tr(Ge) : null,
+    Ve;
+  if (V[0] !== ee) ((Ve = ee && ait(ee)), (V[0] = ee), (V[1] = Ve));
+  else Ve = V[1];
+  let oe = Ve,
+    x = D
+      ? `When it finishes, Claude can post the findings to the PR as a single comment from your GitHub account${D.githubLogin ? ` (@${D.githubLogin})` : ""} \u2014 one plain comment, not a review or an approval, and it carries a "Generated by Claude Code" note.`
+      : null,
+    te =
+      i.mode === "pr"
+        ? `Reviewing ${i.repo}#${i.prNumber} fetched from GitHub.`
+        : i.noMergeBase === "unrelated_history"
+          ? `Reviewing all files (no common history with ${i.baseBranch}).`
+          : i.noMergeBase === "base_ref_missing"
+            ? `Reviewing all files (no ${i.baseBranch} branch to compare against).`
+            : i.headBranch === i.baseBranch
+              ? `Reviewing local changes on ${i.baseBranch}.`
+              : `Reviewing ${i.headBranch} against ${i.baseBranch}.`,
+    M = i.mode === "branch" && i.diffStat ? i.diffStat : null,
+    Je;
+  if (V[2] !== i.instructions || V[3] !== i.mode)
+    ((Je =
+      i.mode === "branch" && i.instructions
+        ? `Note for findings (not a base branch): "${vVe(i.instructions)}"`
+        : null),
+      (V[2] = i.instructions),
+      (V[3] = i.mode),
+      (V[4] = Je));
+  else Je = V[4];
+  let H = Je,
+    ne =
+      i.mode === "pr"
+        ? "Tip: run /code-review ultra (no number) to review your current branch instead."
+        : "Tip: run /code-review ultra <PR number> to fetch and review a specific GitHub PR instead.",
+    re;
+  if (
+    V[5] !== F ||
+    V[6] !== M ||
+    V[7] !== H ||
+    V[8] !== x ||
+    V[9] !== te ||
+    V[10] !== I ||
+    V[11] !== oe ||
+    V[12] !== ne
+  )
+    ((re = I
+      ? r(B, {
+          children: [
+            r(o, {
+              flexDirection: "column",
+              children: [
+                e(n, { dimColor: !0, children: te }),
+                M && r(n, { dimColor: !0, children: ["Scope: ", M] }),
+                H && e(n, { dimColor: !0, children: H }),
+                e(n, {
+                  dimColor: !0,
+                  children: "Finds and verifies bugs using a multi-agent review fleet.",
+                }),
+                e(n, { dimColor: !0, children: ne }),
+                oe && e(n, { dimColor: !0, children: oe }),
+                F && e(n, { dimColor: !0, children: F }),
+                x && e(n, { dimColor: !0, children: x }),
+                r(n, {
+                  dimColor: !0,
+                  children: ["More information: ", e(ht, { url: sq, children: sq })],
+                }),
+              ],
+            }),
+            e(n, { children: "Proceed?" }),
+          ],
+        })
+      : r(o, {
+          flexDirection: "column",
+          children: [
+            e(n, { dimColor: !0, children: te }),
+            M && r(n, { dimColor: !0, children: ["Scope: ", M] }),
+            H && e(n, { dimColor: !0, children: H }),
+            e(n, {
+              dimColor: !0,
+              children: "Finds and verifies bugs using a multi-agent review fleet.",
+            }),
+            e(n, { dimColor: !0, children: ne }),
+            F && e(n, { dimColor: !0, children: F }),
+            x && e(n, { dimColor: !0, children: x }),
+          ],
+        })),
+      (V[5] = F),
+      (V[6] = M),
+      (V[7] = H),
+      (V[8] = x),
+      (V[9] = te),
+      (V[10] = I),
+      (V[11] = oe),
+      (V[12] = ne),
+      (V[13] = re));
+  else re = V[13];
+  let ae;
+  if (V[14] !== Ne || V[15] !== Z || V[16] !== K || V[17] !== D || V[18] !== Oe || V[19] !== I)
+    ((ae = Ne
+      ? e(ue, {})
+      : D
+        ? e(Re, {
+            options: [
+              {
+                label: "Run and only show findings here",
+                value: "proceed",
+                description: "launch in Claude Code on the web",
+              },
+              { label: "Cancel", value: "cancel" },
+              {
+                label: "Run and post the findings to the PR as me",
+                value: "proceed-post",
+                description: "launch in Claude Code on the web",
+              },
+            ],
+            defaultFocusValue: Oe ?? (D.preferPost ? "proceed-post" : "proceed"),
+            onChange: K,
+            onCancel: Z,
+          })
+        : e(Re, {
+            options: [
+              {
+                label: I ? "Yes" : "Run ultrareview",
+                value: "proceed",
+                description: "launch in Claude Code on the web",
+              },
+              { label: I ? "No" : "Not now", value: "cancel" },
+            ],
+            onChange: K,
+            onCancel: Z,
+          })),
+      (V[14] = Ne),
+      (V[15] = Z),
+      (V[16] = K),
+      (V[17] = D),
+      (V[18] = Oe),
+      (V[19] = I),
+      (V[20] = ae));
+  else ae = V[20];
+  let Xe;
+  if (V[21] !== re || V[22] !== ae)
+    ((Xe = r(o, { flexDirection: "column", gap: 1, children: [re, ae] })),
+      (V[21] = re),
+      (V[22] = ae),
+      (V[23] = Xe));
+  else Xe = V[23];
+  return Xe;
+}
+function ue() {
+  let se = y(12),
+    Ie = $s(),
+    We;
+  if (se[0] !== Ie.prefersReducedMotion)
+    ((We = Sd(Ie.prefersReducedMotion)), (se[0] = Ie.prefersReducedMotion), (se[1] = We));
+  else We = se[1];
+  let J = We,
+    [De, X] = Yi(J ? null : 50),
+    Ee = J ? -100 : 19 - (Math.floor(X / 200) % 29),
+    $e = Math.floor(X / 120),
+    le;
+  if (se[2] !== $e || se[3] !== J || se[4] !== X)
+    ((le = e(g9, { frame: $e, messageColor: "inactive", reducedMotion: J, time: X })),
+      (se[2] = $e),
+      (se[3] = J),
+      (se[4] = X),
+      (se[5] = le));
+  else le = se[5];
+  let ce;
+  if (se[6] !== Ee)
+    ((ce = e(Pze, {
+      message: "Launching",
+      mode: "responding",
+      messageColor: "inactive",
+      glimmerIndex: Ee,
+      flashOpacity: 0,
+      shimmerColor: "subtle",
+    })),
+      (se[6] = Ee),
+      (se[7] = ce));
+  else ce = se[7];
+  let qe;
+  if (se[8] !== De || se[9] !== le || se[10] !== ce)
+    ((qe = r(o, { ref: De, flexDirection: "row", columnGap: 1, children: [le, ce] })),
+      (se[8] = De),
+      (se[9] = le),
+      (se[10] = ce),
+      (se[11] = qe));
+  else qe = se[11];
+  return qe;
+}
+async function ze({
+  scope: l,
+  context: f,
+  onDone: b,
+  billingNote: t,
+  applyFixes: h,
+  postToPR: C,
+  postDropped: _,
+  signal: g,
+}) {
+  let c = await Z0t(l, f, t, { applyFixesOnComplete: h, postReviewToPR: C, signal: g });
+  if (g?.aborted) {
+    if (c?.launched && c.taskId && l.mode === "pr")
+      f.taskRegistry.update(c.taskId, (m) => ({ ...m, postReviewTo: void 0 }));
+    return;
+  }
+  if (c) {
+    let m = _ && c.launched ? (_ === "disabled" ? X0t : Y0t) : "",
+      L =
+        c.blocks.map((w) => (w.type === "text" ? w.text : "")).filter(Boolean).join(`
+`) + m;
+    b(L, {
+      shouldQuery: !0,
+      metaMessages: c.launched ? [kVe(h, l.mode === "branch" ? l.instructions : void 0)] : void 0,
     });
-  switch (e.status) {
-    case "launched":
-      return { type: "query", value: e.message, prompt: kVe(n) };
-    case "needs-confirm": {
-      let l = Fc()
-        ? "Run /ultrareview to confirm and launch the cloud review."
-        : 'Run "claude ultrareview" from your terminal to consent and launch, or use /ultrareview in an interactive Claude Code session.';
-      return {
-        type: "text",
-        value: `${e.body} ${a} can't show the billing confirmation in this session. ${l}`,
-      };
+  } else
+    b(
+      "Ultrareview failed to launch the cloud session. Check that this is a GitHub repo and try again.",
+      { display: "system" },
+    );
+}
+var No = async (l, f, b, t) => {
+  let h = Gf("allow_remote_sessions", "Cloud sessions", "are");
+  if (h) return (l(h, { display: "system" }), null);
+  let { scopeArgs: C, applyFixes: _, postReview: g } = AVe(b),
+    c = await J0t(C, t ? `/${t}` : "/ultrareview");
+  if (!c.ok) return (l(c.error, { display: "system" }), null);
+  let m = c.scope,
+    L = !1,
+    w = (R) => {
+      if (m.mode === "branch" && m.noMergeBase)
+        s("tengu_review_remote_precondition_recovery", {
+          reason: S("no_merge_base"),
+          method: S("empty_tree_bundle"),
+          outcome: u(R),
+        });
+    },
+    a = await Q0t({
+      overageConfirmed: f.isUltrareviewOverageConfirmed(),
+      credentials: f.credentials,
+    });
+  switch (a.kind) {
+    case "blocked": {
+      s("tengu_review_overage_blocked", { reason: a.reason });
+      let P = a.actionUrl
+          ? `
+  \u2192 ${a.actionUrl}`
+          : "",
+        N =
+          a.actionUrl?.includes("/admin-settings/") && PS() && !ig()
+            ? `
+  Run /usage-credits to request this from your admin.`
+            : "";
+      return (l(`${a.message}${P}${N}`, { display: "system" }), null);
     }
-    case "blocked":
-      return {
-        type: "text",
-        value: e.actionUrl
-          ? `${e.message}
-  \u2192 ${e.actionUrl}`
-          : e.message,
-      };
-    case "error":
-      return { type: "text", value: e.message };
+    case "needs-confirm":
+    case "proceed":
+      if (a.kind === "needs-confirm") s("tengu_review_overage_dialog_shown", {});
+      let R = !z0e(),
+        v =
+          m.mode === "pr" && zo(m.host) && g !== !1 && !R
+            ? { githubLogin: a.githubLogin ?? null, preferPost: g === !0 }
+            : null;
+      return e(fe, {
+        subtitle: a.kind === "needs-confirm" ? FF() : a.billingNote || null,
+        body: a.kind === "needs-confirm" ? a.body : void 0,
+        scope: m,
+        postOption: v,
+        onProceed: async (P, N) => {
+          if (!L) ((L = !0), w("accepted"));
+          if (
+            (await ze({
+              scope: m,
+              context: f,
+              onDone: l,
+              billingNote: a.billingNote,
+              applyFixes: _,
+              postToPR: v !== null && N.postToPR,
+              postDropped: g === !0 && v === null ? (R ? "disabled" : "target") : void 0,
+              signal: P,
+            }),
+            !P.aborted && a.kind === "needs-confirm")
+          )
+            f.markUltrareviewOverageConfirmed();
+        },
+        onCancel: () => {
+          if (!L) w("declined");
+          l("Ultrareview cancelled.", { display: "system" });
+        },
+      });
   }
 };
-export { m as call };
+export { No as call };

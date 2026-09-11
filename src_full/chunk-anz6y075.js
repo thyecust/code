@@ -301,7 +301,7 @@ var M = W(ua(), 1),
           );
         d.TokenCode = await e.mfaCodeProvider(d?.SerialNumber);
       }
-      let { AssumeRoleCommand: w, STSClient: u } = await import("./_MISSING/chunk-x092j08c.js");
+      let { AssumeRoleCommand: w, STSClient: u } = await import("./chunk-x092j08c.js");
       if (!t) {
         let g = typeof r === "function" ? r() : void 0,
           l = [

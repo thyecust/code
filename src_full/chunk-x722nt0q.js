@@ -5353,15 +5353,15 @@ var JI = H(function (XI) {
     if (!dr)
       switch (eZ.platform) {
         case "darwin":
-          dr = (await import("./_MISSING/chunk-1fpqevdk.js").then((m) => W(m.default)))
+          dr = (await import("./chunk-1fpqevdk.js").then((m) => W(m.default)))
             .getMachineId;
           break;
         case "linux":
-          dr = (await import("./_MISSING/chunk-3yg9sw3s.js").then((m) => W(m.default)))
+          dr = (await import("./chunk-3yg9sw3s.js").then((m) => W(m.default)))
             .getMachineId;
           break;
         case "freebsd":
-          dr = (await import("./_MISSING/chunk-n9y2w86t.js").then((m) => W(m.default)))
+          dr = (await import("./chunk-n9y2w86t.js").then((m) => W(m.default)))
             .getMachineId;
           break;
         case "win32":
@@ -5369,7 +5369,7 @@ var JI = H(function (XI) {
             .getMachineId;
           break;
         default:
-          dr = (await import("./_MISSING/chunk-42b7sw13.js").then((m) => W(m.default)))
+          dr = (await import("./chunk-42b7sw13.js").then((m) => W(m.default)))
             .getMachineId;
           break;
       }
@@ -5709,8 +5709,8 @@ class R_ {
       n;
     try {
       let [r, o] = await Promise.all([
-          import("./_MISSING/chunk-sb47da7h.js"),
-          import("./_MISSING/chunk-pj3m5xzy.js"),
+          import("./chunk-sb47da7h.js"),
+          import("./chunk-pj3m5xzy.js"),
         ]),
         d = r.loadConfig ?? r.default?.loadConfig,
         p = o.NODE_REGION_CONFIG_FILE_OPTIONS ?? o.default?.NODE_REGION_CONFIG_FILE_OPTIONS,
@@ -6004,7 +6004,7 @@ function gQe(e) {
   return a.ANTHROPIC_BEDROCK_REGION_PREFIX ?? aTe(e);
 }
 async function N_() {
-  let e = await import("./_MISSING/chunk-an6aaq4r.js").then((m) => W(m.default, 1));
+  let e = await import("./chunk-an6aaq4r.js").then((m) => W(m.default, 1));
   return e.NoAuthSigner ?? e.default?.NoAuthSigner;
 }
 function _b(e) {
@@ -30754,7 +30754,7 @@ function _B() {
 }
 async function mB() {
   let [{ STSClient: e, GetCallerIdentityCommand: n }, r] = await Promise.all([
-      import("./_MISSING/chunk-q1rs4bvd.js"),
+      import("./chunk-q1rs4bvd.js"),
       FA(),
     ]),
     o = new e({ region: r, ...(await ghe({ url: mhe(r), region: r, requestTimeoutMs: gB })) });
@@ -31389,7 +31389,7 @@ var epe = m(() => w.object({ accessToken: w.string().min(1), expiresAt: w.string
   npe = 128;
 class UB {
   ssoProfile = EU(async (e, n, r) => {
-    let { loadSharedConfigFiles: o } = await import("./_MISSING/chunk-y2122vwy.js").then((m) =>
+    let { loadSharedConfigFiles: o } = await import("./chunk-y2122vwy.js").then((m) =>
         W(m.default, 1),
       ),
       { configFile: d, credentialsFile: p } = await o({
@@ -31435,7 +31435,7 @@ class UB {
       let y = Date.parse(p.data.expiresAt);
       if (!Number.isFinite(y) || y <= Date.now()) return null;
       let [{ SSOClient: v, GetRoleCredentialsCommand: R }, k] = await Promise.all([
-          import("./_MISSING/chunk-e01wttwq.js"),
+          import("./chunk-e01wttwq.js"),
           qse({ url: `https://portal.sso.${o}.amazonaws.com`, requestTimeoutMs: Rge }),
         ]),
         N = new v({

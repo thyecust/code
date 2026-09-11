@@ -124403,7 +124403,7 @@ async function iT(e) {
         else if (!fre()) xn = "pull_unsupported";
         else if (!HMe() || cn.engine !== "git") xn = "engine_declined";
         else if (Tt !== null) {
-          let Oi = await import("./_MISSING/chunk-jv7fmhd9.js").catch((Yi) => (h(Yi), null)),
+          let Oi = await import("./chunk-jv7fmhd9.js").catch((Yi) => (h(Yi), null)),
             ss =
               Oi === null
                 ? { kind: "not_planned", whyNot: "unavailable" }
@@ -136133,7 +136133,7 @@ class Imn {
 }
 var UDo;
 function HDo() {
-  return (UDo ??= import("./_MISSING/chunk-f1d3h2hn.js").then((e) => {
+  return (UDo ??= import("./chunk-f1d3h2hn.js").then((e) => {
     let r = new e.default();
     return (r.remove(["style", "script", "noscript", "iframe"]), r);
   }));
@@ -152998,7 +152998,7 @@ async function jxr({
     { getOAuthHeaders: pe } = await import("./utils__teleport__api__cand0.js"),
     { getMainLoopModel: me } = await import("./chunk-6fxmdt7c.js"),
     { getOriginalCwd: ye } = await import("./chunk-mxd9ype7.js"),
-    { default: xe } = await import("./_MISSING/chunk-7t53avt6.js"),
+    { default: xe } = await import("./chunk-7t53avt6.js"),
     { isFirstPartyProvider: Re } = await import("./chunk-mc1vn38d.js");
   if (!Re())
     return (
@@ -170167,7 +170167,7 @@ async function ypt(e, n) {
 }
 var Gge = {};
 je(Gge, { default: () => Gge, streamableHttp: () => r2n });
-var r2n = () => import("./_MISSING/chunk-1b5cmpv5.js");
+var r2n = () => import("./chunk-1b5cmpv5.js");
 async function _pt(e, n, r) {
   let [, o = "", d = ""] = new URL(e.url).pathname.split("/"),
     p = gpt(d),
@@ -182568,7 +182568,7 @@ function Xde(e, n, r, o, d) {
   if (r === "subagent_exit") e.forgetSubagentTelemetry(p);
 }
 function Emn() {
-  return import.meta.require("./_MISSING/chunk-nmwng5y8.js");
+  return import.meta.require("./chunk-nmwng5y8.js");
 }
 function Wj(e, n, r) {
   return r === void 0 && dTe(e) && !Gj(e, n);
@@ -211282,7 +211282,7 @@ function vns() {
 function Zor() {
   return Vie() && Qpt() === "full";
 }
-// var SGe = _ns(import.meta.require("./_MISSING/chunk-zwwbjf7e.js")), // thy
+// var SGe = _ns(import.meta.require("./chunk-zwwbjf7e.js")), // thy
 var SGe = "thy-placeholder-SGe",
   xns = vor(),
   xor = /^- Unrequested Artifact Publish .*\r?\n/m,
@@ -213350,7 +213350,7 @@ var wvt = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-74z4cte9.js"),
+    load: () => import("./chunk-74z4cte9.js"),
   },
   Drs = {
     type: "local-jsx",
@@ -213431,7 +213431,7 @@ var Hrs = {
     aliases: ["reset", "new"],
     supportsNonInteractive: !0,
     thinClientDispatch: "post-text",
-    load: () => import("./_MISSING/chunk-3cxt96xn.js"),
+    load: () => import("./chunk-3cxt96xn.js"),
   },
   kGe = Hrs;
 var jrs = {
@@ -213442,7 +213442,7 @@ var jrs = {
     argumentHint: `[${[...dp, "default"].join("|")}]`,
     requires: { ink: !0 },
     terminalOriented: !0,
-    load: () => import("./_MISSING/chunk-ebadgm0a.js"),
+    load: () => import("./chunk-ebadgm0a.js"),
   },
   Rvt = {
     type: "local",
@@ -213455,7 +213455,7 @@ var jrs = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-8sfz4wzt.js"),
+    load: () => import("./chunk-8sfz4wzt.js"),
   },
   Ivt = jrs;
 var Wrs = {
@@ -213721,7 +213721,7 @@ var Qrs = {
     supportsNonInteractive: !0,
     argumentHint: "<optional custom summarization instructions>",
     thinClientDispatch: "post-text",
-    load: () => import("./_MISSING/chunk-wd5tym1d.js"),
+    load: () => import("./chunk-wd5tym1d.js"),
   },
   wGe = Qrs;
 var Fsr = {
@@ -213749,7 +213749,7 @@ var Fsr = {
       return Le() || Fn();
     },
     argumentHint: "[auto|<tokens>]",
-    load: () => import("./_MISSING/chunk-d7q0sd1w.js"),
+    load: () => import("./chunk-d7q0sd1w.js"),
     userFacingName() {
       return "autocompact";
     },
@@ -213776,7 +213776,7 @@ var Jrs = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-ajdrn8y3.js"),
+    load: () => import("./chunk-ajdrn8y3.js"),
   },
   Fvt = Jrs;
 function epe() {
@@ -213851,7 +213851,7 @@ var tos = {
     isHidden: !1,
     supportsNonInteractive: !0,
     thinClientDispatch: "post-text",
-    load: () => import("./_MISSING/chunk-2dqj1q32.js"),
+    load: () => import("./chunk-2dqj1q32.js"),
     userFacingName() {
       return "pause-memory";
     },
@@ -213920,7 +213920,7 @@ var sos = {
       return !c7() || !Le();
     },
     isEnabled: () => c7() && Le(),
-    load: () => import("./_MISSING/chunk-66hr5ew7.js"),
+    load: () => import("./chunk-66hr5ew7.js"),
   },
   Gsr = sos;
 var VQn =
@@ -214218,7 +214218,7 @@ var uos = {
     supportsNonInteractive: !1,
     type: "local",
     requires: { workspace: !1 },
-    load: () => import("./_MISSING/chunk-30awrceq.js"),
+    load: () => import("./chunk-30awrceq.js"),
   },
   Vvt = uos;
 var dos = {
@@ -214229,7 +214229,7 @@ var dos = {
     isEnabled: () => E5(),
     policyGate: w5,
     supportsNonInteractive: !0,
-    load: () => import("./_MISSING/chunk-4nkt7jcb.js"),
+    load: () => import("./chunk-4nkt7jcb.js"),
   },
   qsr = {
     type: "local",
@@ -214239,7 +214239,7 @@ var dos = {
     policyGate: w5,
     supportsNonInteractive: !0,
     isHidden: !0,
-    load: () => import("./_MISSING/chunk-2svh8xnq.js"),
+    load: () => import("./chunk-2svh8xnq.js"),
   },
   Vsr = {
     type: "local",
@@ -214249,7 +214249,7 @@ var dos = {
     policyGate: w5,
     supportsNonInteractive: !0,
     isHidden: !0,
-    load: () => import("./_MISSING/chunk-3y2374gr.js"),
+    load: () => import("./chunk-3y2374gr.js"),
   },
   Ksr = dos;
 var Ysr = () => ({
@@ -214292,7 +214292,7 @@ var pos = {
     description: "Install the Claude Slack app",
     availability: ["claude-ai"],
     supportsNonInteractive: !1,
-    load: () => import("./_MISSING/chunk-67mchxqe.js"),
+    load: () => import("./chunk-67mchxqe.js"),
   },
   nir = pos;
 var rir = { isEnabled: () => !1, isHidden: !0, name: "stub" };
@@ -214307,7 +214307,7 @@ var TGe = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-kzvkj4tb.js"),
+    load: () => import("./chunk-kzvkj4tb.js"),
   },
   mos = {
     type: "local-jsx",
@@ -214357,7 +214357,7 @@ var hos = {
       return !QOe();
     },
     supportsNonInteractive: !1,
-    load: () => import("./_MISSING/chunk-b2sybf0j.js"),
+    load: () => import("./chunk-b2sybf0j.js"),
   },
   sir = hos;
 var Jvt = {
@@ -214381,7 +214381,7 @@ var _os = {
     immediate: !0,
     argumentHint: "[name]",
     requires: { ink: !0 },
-    load: () => import("./_MISSING/chunk-rm25r5m2.js"),
+    load: () => import("./chunk-rm25r5m2.js"),
   },
   ext = {
     type: "local",
@@ -214394,7 +214394,7 @@ var _os = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-7m87yd35.js"),
+    load: () => import("./chunk-7m87yd35.js"),
   },
   txt = _os;
 var bos = {
@@ -214444,7 +214444,7 @@ var uir = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-m7yf9e0c.js"),
+    load: () => import("./chunk-m7yf9e0c.js"),
   };
 var kos = {
     type: "local-jsx",
@@ -215765,7 +215765,7 @@ var fxt = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-93bqgek1.js"),
+    load: () => import("./chunk-93bqgek1.js"),
   };
 var mxt = {
     type: "local-jsx",
@@ -215784,7 +215784,7 @@ var mxt = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-j6rey8bs.js"),
+    load: () => import("./chunk-j6rey8bs.js"),
   };
 var nss = {
     type: "local-jsx",
@@ -215845,7 +215845,7 @@ var iss = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-7s4xtazk.js"),
+    load: () => import("./chunk-7s4xtazk.js"),
   },
   _xt = iss;
 var ass = {
@@ -216099,7 +216099,7 @@ var uar = {
   description: "Spawn a background agent that inherits the full conversation",
   argumentHint: "<directive>",
   isEnabled: () => !xs(),
-  load: () => import("./_MISSING/chunk-5wd81mpg.js"),
+  load: () => import("./chunk-5wd81mpg.js"),
 };
 var far = {
   type: "local-jsx",
@@ -216114,7 +216114,7 @@ var mar = {
   description: "Send a subagent off with your full context; its result comes back here",
   argumentHint: "<task>",
   isEnabled: () => !xs(),
-  load: () => import("./_MISSING/chunk-hayjsv4p.js"),
+  load: () => import("./chunk-hayjsv4p.js"),
 };
 var wss = async () => ({
     type: "text",
@@ -216163,7 +216163,7 @@ var vss = {
     supportsNonInteractive: !1,
     terminalOriented: !0,
     thinClientDispatch: "control-request",
-    load: () => import("./_MISSING/chunk-hd2r09s6.js"),
+    load: () => import("./chunk-hd2r09s6.js"),
   },
   xGe = vss;
 var xss = {
@@ -216172,7 +216172,7 @@ var xss = {
     description: "Pick up skills added or changed on disk during this session",
     supportsNonInteractive: !0,
     thinClientDispatch: "post-text",
-    load: () => import("./_MISSING/chunk-sx4sca2c.js"),
+    load: () => import("./chunk-sx4sca2c.js"),
   },
   CGe = xss;
 var Css = {
@@ -216182,7 +216182,7 @@ var Css = {
     argumentHint: "",
     type: "local",
     supportsNonInteractive: !1,
-    load: () => import("./_MISSING/chunk-bk596d4r.js"),
+    load: () => import("./chunk-bk596d4r.js"),
   },
   yar = Css;
 var Ass = {
@@ -216200,7 +216200,7 @@ var Ass = {
       if (o.success) e(`Heap dump written to ${o.heapPath}`);
       else n(`Couldn't write heap dump \u2014 ${o.error}`);
     },
-    load: () => import("./_MISSING/chunk-fqs1awta.js"),
+    load: () => import("./chunk-fqs1awta.js"),
   },
   _ar = Ass;
 var Sar = { isEnabled: () => !1, isHidden: !0, name: "stub" };
@@ -216296,7 +216296,7 @@ var Nss = {
     name: "stickers",
     description: "Order Claude Code stickers",
     supportsNonInteractive: !1,
-    load: () => import("./_MISSING/chunk-9as1vnk2.js"),
+    load: () => import("./chunk-9as1vnk2.js"),
   },
   Mar = Nss;
 var Lss = {
@@ -216304,7 +216304,7 @@ var Lss = {
     name: "radio",
     description: "Listen to Claude FM lo-fi radio",
     supportsNonInteractive: !1,
-    load: () => import("./_MISSING/chunk-99syxh2g.js"),
+    load: () => import("./chunk-99syxh2g.js"),
   },
   Dar = Lss;
 var Axt = {
@@ -216405,7 +216405,7 @@ var $ss = {
     get description() {
       return Bar();
     },
-    load: () => import("./_MISSING/chunk-cg1yd06r.js"),
+    load: () => import("./chunk-cg1yd06r.js"),
   },
   Pxt = $ss;
 var Bss = {
@@ -216417,7 +216417,7 @@ var Bss = {
     isEnabled: () => !1,
     isHidden: !0,
     fleetHostCall: async ({ relaunch: e }) => e(),
-    load: () => import("./_MISSING/chunk-n2p2s4x7.js"),
+    load: () => import("./chunk-n2p2s4x7.js"),
   },
   Ixt = Bss;
 var Uss = {
@@ -216438,7 +216438,7 @@ var Oxt = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-818y7vdh.js"),
+    load: () => import("./chunk-818y7vdh.js"),
   },
   Dxt = {
     type: "local-jsx",
@@ -216468,7 +216468,7 @@ var Hss = {
     isHidden: !0,
     disableModelInvocation: !0,
     supportsNonInteractive: !0,
-    load: () => import("./_MISSING/chunk-1fb4p6fj.js").then((e) => ({ call: e.call })),
+    load: () => import("./chunk-1fb4p6fj.js").then((e) => ({ call: e.call })),
   },
   jar = Hss;
 var jss = {
@@ -216478,7 +216478,7 @@ var jss = {
     isHidden: !0,
     disableModelInvocation: !0,
     supportsNonInteractive: !0,
-    load: () => import("./_MISSING/chunk-f5hm67n0.js").then((e) => ({ call: e.call })),
+    load: () => import("./chunk-f5hm67n0.js").then((e) => ({ call: e.call })),
   },
   War = jss;
 var Wss = {
@@ -216506,7 +216506,7 @@ var _O = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-xdb087m7.js"),
+    load: () => import("./chunk-xdb087m7.js"),
   },
   Lxt = {
     type: "local-jsx",
@@ -216523,7 +216523,7 @@ var _O = {
     description: "Renamed to /usage-credits",
     isHidden: !0,
     isEnabled: () => PS() && Le(),
-    load: () => import("./_MISSING/chunk-h08nsv8q.js"),
+    load: () => import("./chunk-h08nsv8q.js"),
   };
 var Gss = {
     type: "local-jsx",
@@ -216548,7 +216548,7 @@ var qss = {
     supportsNonInteractive: !1,
     isEnabled: () => wt() && (eB() || H$e()),
     isHidden: !0,
-    load: () => import("./_MISSING/chunk-dssn97pe.js"),
+    load: () => import("./chunk-dssn97pe.js"),
   },
   Kar = qss;
 var Vss = "tengu_nifty_lemur",
@@ -216605,7 +216605,7 @@ var Kss = {
     supportsNonInteractive: !1,
     isEnabled: () => wt() && tNe(),
     isHidden: !0,
-    load: () => import("./_MISSING/chunk-23vsxab1.js"),
+    load: () => import("./chunk-23vsxab1.js"),
   },
   Jar = Kss;
 var Yss = {
@@ -216669,7 +216669,7 @@ var Xss = {
     get isHidden() {
       return !Le();
     },
-    load: () => import("./_MISSING/chunk-h6x17mjq.js"),
+    load: () => import("./chunk-h6x17mjq.js"),
   },
   Uxt = Xss;
 var Qss = {
@@ -216798,7 +216798,7 @@ var Gxt = null,
     disableModelInvocation: !0,
     requires: { workspace: !0 },
     async getPromptForCommand(e, n) {
-      let r = (await import("./_MISSING/chunk-pj1t6y4p.js")).default;
+      let r = (await import("./chunk-pj1t6y4p.js")).default;
       if (r.type !== "prompt") throw Error("unreachable");
       return r.getPromptForCommand(e, n);
     },
@@ -228005,7 +228005,7 @@ function Kcs(e, n) {
 }
 class ddr {
   module;
-  requireModule = () => import.meta.require("./_MISSING/chunk-rj7cqk06.js");
+  requireModule = () => import.meta.require("./chunk-rj7cqk06.js");
   load() {
     if (this.module !== void 0) return this.module ?? void 0;
     try {
@@ -241872,7 +241872,7 @@ function SUt() {
 }
 async function ade() {
   try {
-    let { flushAnalyticsSinks: e } = await import("./_MISSING/chunk-28xad0z8.js");
+    let { flushAnalyticsSinks: e } = await import("./chunk-28xad0z8.js");
     await e();
   } catch {}
 }

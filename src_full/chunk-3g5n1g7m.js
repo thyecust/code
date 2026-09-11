@@ -29,7 +29,7 @@ var sCt = (e) => async (t) => {
     { roleAssumerWithWebIdentity: i } = e;
   if (!i) {
     let { getDefaultRoleAssumerWithWebIdentity: E } =
-      await import("./_MISSING/chunk-8nd3btrv.js").then((m) => W(m.default, 1));
+      await import("./chunk-8nd3btrv.js").then((m) => W(m.default, 1));
     i = E(
       {
         ...e.clientConfig,
