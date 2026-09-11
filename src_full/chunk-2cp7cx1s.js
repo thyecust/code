@@ -10,10 +10,8 @@
 import { Nbt } from "./chunk-vpt6j0hj.js";
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var e = ke("./_MISSING/claude-tag-dht2qzjm.md"); // thy
-var e = ke("./assets_named/thy_missing.md");
-// var t = ke("./_MISSING/live-sources-pvws3ftv.md"); // thy
-var t = ke("./assets_named/thy_missing.md");
+var e = ke("./assets/claude-tag-dht2qzjm.md");
+var t = ke("./assets/live-sources-pvws3ftv.md");
 var a = "./assets/plugin-eval";
 var n = et(a, import.meta.dirname);
 // var o = ke("./_MISSING/recent-changes-8vv0qw8q.md"); // thy

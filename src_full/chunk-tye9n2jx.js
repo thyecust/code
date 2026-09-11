@@ -11,12 +11,10 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = "./assets/component-schemas";
 var t = et(e, import.meta.dirname);
-// var n = ke("./_MISSING/example-plugins-9n8v6pe1.md"); // thy
-var n = ke("./assets_named/thy_missing.md");
+var n = ke("./assets/example-plugins-9n8v6pe1.md");
 // var o = ke("./_MISSING/mcp-servers-chmkz450.md"); // thy
 var o = ke("./assets_named/thy_missing.md");
-// var i = ke("./_MISSING/search-strategies-4qam2bp6.md"); // thy
-var i = ke("./assets_named/thy_missing.md");
+var i = ke("./assets/search-strategies-4qam2bp6.md");
 var s = "./assets/SKILL";
 var r = et(s, import.meta.dirname);
 var x = r,

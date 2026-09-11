@@ -9,10 +9,8 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var e = ke("./_MISSING/cli-f091jpwx.md"); // thy
-var e = ke("./assets_named/thy_missing.md");
-// var t = ke("./_MISSING/server-6cyhjq09.md"); // thy
-var t = ke("./assets_named/thy_missing.md");
+var e = ke("./assets/cli-f091jpwx.md");
+var t = ke("./assets/server-6cyhjq09.md");
 var s = "./assets/SKILL";
 var i = et(s, import.meta.dirname);
 var g = i,

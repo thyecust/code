@@ -9,18 +9,14 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var e = ke("./_MISSING/cli-40vh1c3p.md"); // thy
-var e = ke("./assets_named/thy_missing.md");
+var e = ke("./assets/cli-40vh1c3p.md");
 var t = "./assets/electron";
 var a = et(t, import.meta.dirname);
-// var s = ke("./_MISSING/library-yywvyb11.md"); // thy
-var s = ke("./assets_named/thy_missing.md");
+var s = ke("./assets/library-yywvyb11.md");
 // var n = ke("./_MISSING/playwright-g4wwbqeh.md"); // thy
 var n = ke("./assets_named/thy_missing.md");
-// var r = ke("./_MISSING/server-z4ytjptt.md"); // thy
-var r = ke("./assets_named/thy_missing.md");
-// var i = ke("./_MISSING/tui-93b0fcsh.md"); // thy
-var i = ke("./assets_named/thy_missing.md");
+var r = ke("./assets/server-z4ytjptt.md");
+var i = ke("./assets/tui-93b0fcsh.md");
 var o = ke("./assets/SKILL-9ddmsnpa.md");
 var q = o,
   F = {
