@@ -1,0 +1,1 @@
+XML:com.adobe.xmpRaw profile type iptcRaw profile type 8bimFailed to convert rust type `Option<T>` into napi valuepalettecolorsformatFailed to convert napi value into rust type `Option<T>`Failed to get constructor of class `ImageProcessor` in `ToNapiValue`fitwithoutEnlargement[strict-mode]: Extra bytes between headers
