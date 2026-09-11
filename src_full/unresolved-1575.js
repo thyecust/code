@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var e = "./_MISSING/source-storybook.mjs-125aecbd.txt.zst";
+var e = "./assets/source-storybook.mjs";
 var i = et(e, import.meta.dirname);
 export { i as default };

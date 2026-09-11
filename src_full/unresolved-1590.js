@@ -14,7 +14,7 @@ import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets_named/thy_missing.md");
 // var t = ke("./_MISSING/live-sources-pvws3ftv.md"); // thy
 var t = ke("./assets_named/thy_missing.md");
-var a = "./_MISSING/plugin-eval-a0f9bd9e.md.zst";
+var a = "./assets/plugin-eval";
 var n = et(a, import.meta.dirname);
 // var o = ke("./_MISSING/recent-changes-8vv0qw8q.md"); // thy
 var o = ke("./assets_named/thy_missing.md");

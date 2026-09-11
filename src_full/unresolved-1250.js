@@ -13,7 +13,7 @@ import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets_named/thy_missing.md");
 // var t = ke("./_MISSING/server-6cyhjq09.md"); // thy
 var t = ke("./assets_named/thy_missing.md");
-var s = "./_MISSING/SKILL-cf37e4b8.md.zst";
+var s = "./assets/SKILL";
 var i = et(s, import.meta.dirname);
 var g = i,
   y = { "examples/cli.md": e, "examples/server.md": t };

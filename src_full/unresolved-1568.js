@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var e = "./_MISSING/compare.mjs-4b810a57.txt.zst";
+var e = "./assets/compare.mjs";
 var Y = et(e, import.meta.dirname);
 export { Y as default };

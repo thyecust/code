@@ -8,7 +8,7 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var t = "./_MISSING/SKILL-2954d82b.md.zst";
+var t = "./assets/SKILL";
 var l = et(t, import.meta.dirname);
 var y = l;
 export { y as SKILL_MD };

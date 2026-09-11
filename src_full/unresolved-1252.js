@@ -11,7 +11,7 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 // var e = ke("./_MISSING/SKILL-s3202xee.md"); // thy
 var e = ke("./assets_named/thy_missing.md");
-var t = "./_MISSING/template.html-29543a01.txt.zst";
+var t = "./assets/template.html";
 var a = et(t, import.meta.dirname);
 var p = { doc: e },
   m = { doc: { "template.html": a } };

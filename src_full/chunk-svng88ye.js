@@ -9,7 +9,7 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-var e = "./_MISSING/SKILL-e3d212e9.md.zst";
+var e = "./assets/SKILL";
 var t = et(e, import.meta.dirname);
 // var a = ke("./_MISSING/template-eg8004mh.md"); // thy
 var a = ke("./assets_named/thy_missing.md");

@@ -21,10 +21,10 @@ import "./chunk-kn2qhfka.js";
 import "./chunk-xmrr4sh8.js";
 import "./chunk-ras23w04.js";
 import { NKt, B7, et } from "./chunk-cd704anb.js";
-var D = "./_MISSING/SKILL-59d7da6d.md.zst";
+var D = "./assets/SKILL";
 var t = et(D, import.meta.dirname);
 var H = "./_MISSING/payload.template.html.asset";
-var Q = "./_MISSING/seed-canvas.mjs-a5d6a8af.txt.zst";
+var Q = "./assets/seed-canvas.mjs";
 var B = et(Q, import.meta.dirname);
 var l = t,
   I = "payload.template.html",

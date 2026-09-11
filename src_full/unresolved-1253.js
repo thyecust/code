@@ -8,11 +8,11 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var E = "./_MISSING/SKILL-2d6a1c2c.md.zst";
+var E = "./assets/SKILL";
 var t = et(E, import.meta.dirname);
-var L = "./_MISSING/template.html-af756034.txt.zst";
+var L = "./assets/template.html";
 var i = et(L, import.meta.dirname);
-var a = "./_MISSING/board.mjs-0bf8864f.txt.zst";
+var a = "./assets/board.mjs";
 var e = et(a, import.meta.dirname);
 var f = t,
   U = { "template.html": i, "board.mjs": e };

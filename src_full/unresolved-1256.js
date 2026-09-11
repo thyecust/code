@@ -11,11 +11,11 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 // var s = ke("./_MISSING/SKILL-3b8ea659.md"); // thy
 var s = ke("./assets_named/thy_missing.md");
-var i = "./_MISSING/decisions-script.html-8bdc62d1.txt.zst";
+var i = "./assets/decisions-script.html";
 var e = et(i, import.meta.dirname);
-var a = "./_MISSING/component.css-02637b0d.txt.zst";
+var a = "./assets/component.css";
 var n = et(a, import.meta.dirname);
-var o = "./_MISSING/tokens.css-6f9090cf.txt.zst";
+var o = "./assets/tokens.css";
 var r = et(o, import.meta.dirname);
 // var d = ke("./_MISSING/skeleton.html-893t268n.txt"); // thy
 var d = ke("./assets_named/thy_missing.md");

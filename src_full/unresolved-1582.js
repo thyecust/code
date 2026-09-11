@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var Q = "./_MISSING/package-validate.mjs-3a0e4e2a.txt.zst";
+var Q = "./assets/package-validate.mjs";
 var e = et(Q, import.meta.dirname);
 export { e as default };

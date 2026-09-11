@@ -216153,7 +216153,7 @@ var har = Object.freeze({
     "Write claude-code.d.ts and claude-code-mcp.d.ts: the plugin API's TypeScript declarations and the inputs of the connected MCP tools, for typing a hooks module against this session",
   argumentHint: "[dir]",
   supportsNonInteractive: !0,
-  load: () => import("./_MISSING/chunk-490qkq7r.js"),
+  load: () => import("./chunk-490qkq7r.js"),
 });
 var vss = {
     type: "local",

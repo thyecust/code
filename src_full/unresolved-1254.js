@@ -9,7 +9,7 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-var e = "./_MISSING/component-schemas-7fabf82f.md.zst";
+var e = "./assets/component-schemas";
 var t = et(e, import.meta.dirname);
 // var n = ke("./_MISSING/example-plugins-9n8v6pe1.md"); // thy
 var n = ke("./assets_named/thy_missing.md");
@@ -17,7 +17,7 @@ var n = ke("./assets_named/thy_missing.md");
 var o = ke("./assets_named/thy_missing.md");
 // var i = ke("./_MISSING/search-strategies-4qam2bp6.md"); // thy
 var i = ke("./assets_named/thy_missing.md");
-var s = "./_MISSING/SKILL-0e9ec89e.md.zst";
+var s = "./assets/SKILL";
 var r = et(s, import.meta.dirname);
 var x = r,
   A = {

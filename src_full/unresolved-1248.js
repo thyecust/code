@@ -8,11 +8,11 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var r = "./_MISSING/SKILL-a824d37f.md.zst";
+var r = "./assets/SKILL";
 var T = et(r, import.meta.dirname);
-var e = "./_MISSING/template.html-bdacabb4.txt.zst";
+var e = "./assets/template.html";
 var i = et(e, import.meta.dirname);
-var l = "./_MISSING/merge-state.mjs-105f1093.txt.zst";
+var l = "./assets/merge-state.mjs";
 var m = et(l, import.meta.dirname);
 var p = T,
   c = { "template.html": i, "merge-state.mjs": m };

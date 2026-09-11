@@ -33,11 +33,11 @@ var f = H(function (me, k) {
 //   k.exports = ke("./_MISSING/probe.mjs-24tedw09.txt"); // thy
   k.exports = ke("./assets_named/thy_missing.md");
 });
-var s = "./_MISSING/SKILL-057df712.md.zst";
+var s = "./assets/SKILL";
 var o = et(s, import.meta.dirname);
-var r = "./_MISSING/SKILL-b6859017.md.zst";
+var r = "./assets/SKILL";
 var n = et(r, import.meta.dirname);
-var i = "./_MISSING/SKILL-76b8b2a9.md.zst";
+var i = "./assets/SKILL";
 var a = et(i, import.meta.dirname);
 var e = (t) => (typeof t === "string" ? t : t.default),
   x = import.meta.require("./_MISSING/chunk-zgfrba7h.js"),
