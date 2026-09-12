@@ -33778,7 +33778,7 @@ async function jk(e, t, n, i, r, o) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       } < "u"
         ? {
@@ -33790,7 +33790,7 @@ async function jk(e, t, n, i, r, o) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-09-02T18:43:49Z",
             GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             DD_SOURCEMAP_GROUP: "default",
           }.VERSION
         : "unknown",
@@ -36373,7 +36373,7 @@ async function AX(e) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         } < "u"
           ? {
@@ -36386,7 +36386,7 @@ async function AX(e) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION
           : "unknown",
@@ -36719,7 +36719,7 @@ async function AX(e) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             } < "u"
               ? {
@@ -36732,7 +36732,7 @@ async function AX(e) {
                   BUILD_TIME: "2026-09-02T18:43:49Z",
                   GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                   HOOKS_WORKER_URL:
-                    "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                    "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   DD_SOURCEMAP_GROUP: "default",
                 }.VERSION
               : "unknown",

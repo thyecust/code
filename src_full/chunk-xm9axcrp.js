@@ -11167,7 +11167,7 @@ function Q_(e, n, o, d, y, R, A, D, k, w, K, B, T, z, se, G, H, Pe, pe, xe) {
             } else if (r.request.subtype === "mcp_status") ze(r, { mcpServers: fSn(e, Cd()) });
             else if (r.request.subtype === "get_binary_version")
               ze(r, {
-                version: `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`,
+                version: `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`,
                 buildTime: {
                   ISSUES_EXPLAINER:
                     "report the issue at https://github.com/anthropics/claude-code/issues",
@@ -11178,7 +11178,7 @@ function Q_(e, n, o, d, y, R, A, D, k, w, K, B, T, z, se, G, H, Pe, pe, xe) {
                   BUILD_TIME: "2026-09-02T18:43:49Z",
                   GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                   HOOKS_WORKER_URL:
-                    "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                    "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   DD_SOURCEMAP_GROUP: "default",
                 }.BUILD_TIME,
               });

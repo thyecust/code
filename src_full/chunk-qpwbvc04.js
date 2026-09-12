@@ -64587,7 +64587,7 @@ async function A9r(e, n, r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       materialized: r.materialized,
@@ -68164,7 +68164,7 @@ ${Nbt}`;
 }
 function p7r() {
   if (YG() || !xC())
-    return `- When you cannot find an answer or the feature doesn't exist, direct the user to ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`;
+    return `- When you cannot find an answer or the feature doesn't exist, direct the user to ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`;
   return "- When you cannot find an answer or the feature doesn't exist, direct the user to use /feedback to report a feature request or bug";
 }
 var xen = {
@@ -71648,7 +71648,7 @@ function Itn() {
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-09-02T18:43:49Z",
     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-    HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+    HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
     DD_SOURCEMAP_GROUP: "default",
   }.VERSION;
 }
@@ -72701,7 +72701,7 @@ function snn(e, n) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
           },
@@ -104792,7 +104792,7 @@ var Yit = () =>
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-09-02T18:43:49Z",
     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-    HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+    HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
     DD_SOURCEMAP_GROUP: "default",
   }).HOOKS_WORKER_URL
     ? Kit(
@@ -104804,7 +104804,7 @@ var Yit = () =>
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.HOOKS_WORKER_URL,
       )
@@ -129736,7 +129736,7 @@ var Lct =
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-09-02T18:43:49Z",
     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-    HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+    HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
     DD_SOURCEMAP_GROUP: "default",
   } < "u"
     ? {
@@ -129747,7 +129747,7 @@ var Lct =
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION
     : "unknown";
@@ -150538,7 +150538,7 @@ function U$n() {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         } < "u"
           ? {
@@ -150551,7 +150551,7 @@ function U$n() {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION
           : "dev",
@@ -159975,7 +159975,7 @@ var eWo = m(() =>
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-09-02T18:43:49Z",
             GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             DD_SOURCEMAP_GROUP: "default",
           }.VERSION,
           os: `${a.platform} x64`,
@@ -167357,7 +167357,7 @@ function Bjn(e) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.VERSION,
   );
@@ -167447,7 +167447,7 @@ async function pT(e) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
     ),
@@ -179943,7 +179943,7 @@ function vqn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.BUILD_TIME
   )
@@ -179957,7 +179957,7 @@ function vqn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.BUILD_TIME,
   ).getTime();
@@ -182023,7 +182023,7 @@ var Qqn =
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     } < "u"
       ? {
@@ -182034,7 +182034,7 @@ var Qqn =
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION
       : "unknown",
@@ -204476,7 +204476,7 @@ function qZo() {
     ],
     r = [
       "/help: Get help with using Claude Code",
-      `To give feedback, users should ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`,
+      `To give feedback, users should ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.ISSUES_EXPLAINER}`,
     ],
     o = [
       'The user will primarily request you to perform software engineering tasks. These may include solving bugs, adding new functionality, refactoring code, explaining code, and more. When given an unclear or generic instruction, consider it in the context of these software engineering tasks and the current working directory. For example, if the user asks you to change "methodName" to snake case, do not reply with just "method_name", instead find the method in the code and modify the code.',
@@ -216210,7 +216210,7 @@ var Rss = {
     requires: { ink: !0 },
   },
   Pss = async () => {
-    let e = `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`;
+    let e = `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`;
     return {
       type: "text",
       value: {
@@ -216221,10 +216221,10 @@ var Rss = {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.BUILD_TIME
-        ? `${e} (built ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.BUILD_TIME})`
+        ? `${e} (built ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.BUILD_TIME})`
         : e,
     };
   },
@@ -233685,7 +233685,7 @@ var Lds =
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     } < "u"
       ? {
@@ -233696,7 +233696,7 @@ var Lds =
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION
       : "unknown",

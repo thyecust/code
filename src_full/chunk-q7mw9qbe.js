@@ -824,7 +824,7 @@ async function Ft(r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
   };
@@ -1593,7 +1593,7 @@ async function An(r, e, o, i) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       proto: va,
@@ -1613,7 +1613,7 @@ async function An(r, e, o, i) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       processWrapper: mI(),
@@ -1660,7 +1660,7 @@ async function An(r, e, o, i) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
       })
@@ -1940,7 +1940,7 @@ async function An(r, e, o, i) {
                   BUILD_TIME: "2026-09-02T18:43:49Z",
                   GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                   HOOKS_WORKER_URL:
-                    "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                    "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   DD_SOURCEMAP_GROUP: "default",
                 }.VERSION,
             ),
@@ -1967,7 +1967,7 @@ async function An(r, e, o, i) {
                 BUILD_TIME: "2026-09-02T18:43:49Z",
                 GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                 HOOKS_WORKER_URL:
-                  "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                  "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 DD_SOURCEMAP_GROUP: "default",
               }.VERSION,
           ),
@@ -2294,7 +2294,7 @@ async function Rn(r, e) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-09-02T18:43:49Z",
             GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             DD_SOURCEMAP_GROUP: "default",
           }.VERSION;
         if (Date.now() - o > 200 || x)
@@ -2668,7 +2668,7 @@ async function In(r, e, o, i, c) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
     m = d && !i,
@@ -2703,7 +2703,7 @@ async function In(r, e, o, i, c) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       clientTarget: y,
@@ -2722,7 +2722,7 @@ async function In(r, e, o, i, c) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION ||
         (i && A));
@@ -2739,7 +2739,7 @@ async function In(r, e, o, i, c) {
   return (
     t(
       M
-        ? `bg: ${$c()} pid ${v.pid} runs ${v.version}; this binary (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}) is a newer build \u2014 retired the stale ${$c()} so new sessions use the current binary`
+        ? `bg: ${$c()} pid ${v.pid} runs ${v.version}; this binary (${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}) is a newer build \u2014 retired the stale ${$c()} so new sessions use the current binary`
         : `bg: ${$c()} pid ${v.pid} predates CLAUDE_CODE_PROCESS_WRAPPER and spawns sessions unwrapped \u2014 retired it so the replacement runs through the configured launcher`,
       { level: "warn" },
     ),
@@ -2800,7 +2800,7 @@ async function tr(r) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
     };

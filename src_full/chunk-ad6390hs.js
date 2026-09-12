@@ -3813,7 +3813,7 @@ function bee(l, b) {
 function Txe() {
   let l =
       a.DEMO_VERSION ??
-      `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`,
+      `${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${tR()}`,
     b = S0n(),
     x = a.DEMO_VERSION ? "/code/claude" : $o(ne()),
     O = a.CLAUDE_CODE_HIDE_CWD ? "" : b ? `${x} in ${b.replace(/^https?:\/\//, "")}` : x,
@@ -3937,7 +3937,7 @@ function vn(
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-09-02T18:43:49Z",
     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-    HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+    HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
     DD_SOURCEMAP_GROUP: "default",
   }.VERSION,
 ) {
@@ -3986,7 +3986,7 @@ function _o({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       z = wD(),
@@ -4192,7 +4192,7 @@ function _o({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
                                 BUILD_TIME: "2026-09-02T18:43:49Z",
                                 GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                                 HOOKS_WORKER_URL:
-                                  "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                                  "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                                 DD_SOURCEMAP_GROUP: "default",
                               }.PACKAGE_URL,
                             ],
@@ -4221,7 +4221,7 @@ function _o({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
                                 BUILD_TIME: "2026-09-02T18:43:49Z",
                                 GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                                 HOOKS_WORKER_URL:
-                                  "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                                  "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                                 DD_SOURCEMAP_GROUP: "default",
                               }.PACKAGE_URL,
                             ],
@@ -4253,7 +4253,7 @@ function _o({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
                         BUILD_TIME: "2026-09-02T18:43:49Z",
                         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                         HOOKS_WORKER_URL:
-                          "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                          "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                         DD_SOURCEMAP_GROUP: "default",
                       }.PACKAGE_URL,
                     ],
@@ -4283,8 +4283,8 @@ function _o({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
                   e(n, {
                     bold: !0,
                     children: P
-                      ? `cd ~/.claude/local && npm update ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.PACKAGE_URL}`
-                      : `npm i -g ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.PACKAGE_URL}`,
+                      ? `cd ~/.claude/local && npm update ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.PACKAGE_URL}`
+                      : `npm i -g ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.PACKAGE_URL}`,
                   }),
                 ],
               })),
@@ -4359,7 +4359,7 @@ function Io({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
     }),
@@ -4382,7 +4382,7 @@ function Io({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         z,
@@ -4405,7 +4405,7 @@ function Io({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         fe = Date.now() - ae;
@@ -4453,7 +4453,7 @@ function Io({ isUpdating: l, onChangeIsUpdating: b, showSuccessMessage: x, verbo
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
             version_to: null,
@@ -4658,14 +4658,14 @@ function Dr(Hp) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
             cn,
           ))
         ) {
           (t(
-            `PackageManagerAutoUpdater: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${cn}, skipping update`,
+            `PackageManagerAutoUpdater: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${cn}, skipping update`,
           ),
             un.recordPackageManagerLatestVersion(null),
             Lu(null));
@@ -4685,7 +4685,7 @@ function Dr(Hp) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-09-02T18:43:49Z",
             GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             DD_SOURCEMAP_GROUP: "default",
           }.VERSION,
           ut,
@@ -4696,7 +4696,7 @@ function Dr(Hp) {
         return;
       }
       t(
-        `PackageManagerAutoUpdater: Update available ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} -> ${ut}`,
+        `PackageManagerAutoUpdater: Update available ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} -> ${ut}`,
       );
       let Jp = $e(process.env.CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE);
       let ju = Ei(Sn, Eo);
@@ -4782,7 +4782,7 @@ function Dr(Hp) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
             " \xB7 latest:",
@@ -4844,7 +4844,7 @@ function Dr(Hp) {
             FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
             BUILD_TIME: "2026-09-02T18:43:49Z",
             GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
             DD_SOURCEMAP_GROUP: "default",
           }.VERSION,
         ],

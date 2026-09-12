@@ -1196,7 +1196,7 @@ async function pn(e, n = !1) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         o,
@@ -1223,7 +1223,7 @@ async function pn(e, n = !1) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         o,
@@ -1231,7 +1231,7 @@ async function pn(e, n = !1) {
     )
       return (
         t(
-          `Native installer: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${o}, skipping update`,
+          `Native installer: current version ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} is already at or above maxVersion ${o}, skipping update`,
         ),
         s("tengu_native_update_skipped_max_version", {
           latency_ms: Date.now() - r,
@@ -1253,7 +1253,7 @@ async function pn(e, n = !1) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION &&
     (await wt(v)) &&
@@ -1287,7 +1287,7 @@ async function pn(e, n = !1) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       to_version: Qi(v),
@@ -1349,7 +1349,7 @@ async function pn(e, n = !1) {
     return (
       s("tengu_native_update_skipped_unverified_release", { latency_ms: M, target_version: Qi(v) }),
       t(
-        `Native installer: resolved ${v} predates manifest signature enforcement; staying on ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
+        `Native installer: resolved ${v} predates manifest signature enforcement; staying on ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
         { level: "warn" },
       ),
       { success: !0, wasSkipped: !0, skippedUnverifiedRelease: !0, latestVersion: v }
@@ -2029,7 +2029,7 @@ async function Jdn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.PACKAGE_URL &&
     {
@@ -2040,7 +2040,7 @@ async function Jdn() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.PACKAGE_URL !== "@anthropic-ai/claude-code"
   ) {
@@ -2053,7 +2053,7 @@ async function Jdn() {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.PACKAGE_URL,
     );

@@ -8836,7 +8836,7 @@ class Xm {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         platform: Unt(),
@@ -24298,7 +24298,7 @@ async function Tce(e, n) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION,
         peerProtocol: $5t,
@@ -24645,7 +24645,7 @@ async function sZe(e) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
           prior_session_id: Te(F.sessionId),
@@ -25224,7 +25224,7 @@ function cZe() {
     FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
     BUILD_TIME: "2026-09-02T18:43:49Z",
     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-    HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+    HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
     DD_SOURCEMAP_GROUP: "default",
   }.VERSION.match(/^\d+\.\d+\.\d+(?:-[a-z]+)?/);
   return e ? e[0] : void 0;
@@ -25268,7 +25268,7 @@ async function Hce() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.VERSION,
     versionBase: cZe(),
@@ -25280,7 +25280,7 @@ async function Hce() {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.BUILD_TIME,
     deploymentEnvironment: a.detectDeploymentEnvironment(),
@@ -26349,7 +26349,7 @@ function Zie(e) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
     };
@@ -26386,7 +26386,7 @@ function Zie(e) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
     )),
@@ -29441,7 +29441,7 @@ function Skr(e, n) {
       FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
       BUILD_TIME: "2026-09-02T18:43:49Z",
       GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-      HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+      HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
       DD_SOURCEMAP_GROUP: "default",
     }.VERSION,
   };
@@ -31964,7 +31964,7 @@ async function lpe(e) {
   if (FB()) {
     if (!Jo() && !e) {
       let y = Error(
-        `Security: apiKeyHelper executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
+        `Security: apiKeyHelper executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
       );
       return (
         FW("apiKeyHelper invoked before trust check", y),
@@ -32027,7 +32027,7 @@ async function ppe() {
   if (Cge()) {
     if (!Jo() && !Le()) {
       let d = Error(
-        `Security: awsAuthRefresh executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
+        `Security: awsAuthRefresh executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
       );
       return (
         FW("awsAuthRefresh invoked before trust check", d),
@@ -32129,7 +32129,7 @@ async function fpe() {
   if (Slr()) {
     if (!Jo() && !Le()) {
       let r = Error(
-        `Security: awsCredentialExport executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
+        `Security: awsCredentialExport executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
       );
       return (
         FW("awsCredentialExport invoked before trust check", r),
@@ -32301,7 +32301,7 @@ async function Spe() {
   if (Mvt()) {
     if (!Jo() && !Le()) {
       let r = Error(
-        `Security: gcpAuthRefresh executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
+        `Security: gcpAuthRefresh executed before workspace trust is confirmed. If you see this message, post in ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.FEEDBACK_CHANNEL}.`,
       );
       return (
         FW("gcpAuthRefresh invoked before trust check", r),
@@ -34023,7 +34023,7 @@ function hI() {
     n = a.CLAUDE_AGENT_SDK_CLIENT_APP ? `, client-app/${a.CLAUDE_AGENT_SDK_CLIENT_APP}` : "",
     r = k8t(),
     o = r ? `, workload/${r}` : "";
-  return `claude-cli/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} (external, ${a.CLAUDE_CODE_ENTRYPOINT ?? "cli"}${e}${n}${o})`;
+  return `claude-cli/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} (external, ${a.CLAUDE_CODE_ENTRYPOINT ?? "cli"}${e}${n}${o})`;
 }
 function CP() {
   let e = [];
@@ -34032,7 +34032,7 @@ function CP() {
     e.push(`agent-sdk/${process.env.CLAUDE_AGENT_SDK_VERSION}`);
   if (a.CLAUDE_AGENT_SDK_CLIENT_APP) e.push(`client-app/${a.CLAUDE_AGENT_SDK_CLIENT_APP}`);
   let n = e.length > 0 ? ` (${e.join(", ")})` : "";
-  return `claude-code/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${n}`;
+  return `claude-code/${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}${n}`;
 }
 function jvn() {
   return `Claude-User (${Ya()}; +https://support.anthropic.com/)`;

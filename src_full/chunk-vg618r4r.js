@@ -841,7 +841,7 @@ async function bt(r, e = {}) {
                 BUILD_TIME: "2026-09-02T18:43:49Z",
                 GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                 HOOKS_WORKER_URL:
-                  "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                  "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                 DD_SOURCEMAP_GROUP: "default",
               }.VERSION &&
             L("tengu_bg_spare_enable", !0)
@@ -988,7 +988,7 @@ async function bt(r, e = {}) {
                   BUILD_TIME: "2026-09-02T18:43:49Z",
                   GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                   HOOKS_WORKER_URL:
-                    "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                    "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                   DD_SOURCEMAP_GROUP: "default",
                 }.VERSION,
               ) &&
@@ -1160,7 +1160,7 @@ async function bt(r, e = {}) {
                     BUILD_TIME: "2026-09-02T18:43:49Z",
                     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                     HOOKS_WORKER_URL:
-                      "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                      "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     DD_SOURCEMAP_GROUP: "default",
                   }.VERSION,
                 )
@@ -1180,7 +1180,7 @@ async function bt(r, e = {}) {
                     BUILD_TIME: "2026-09-02T18:43:49Z",
                     GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
                     HOOKS_WORKER_URL:
-                      "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                      "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
                     DD_SOURCEMAP_GROUP: "default",
                   }.VERSION,
                 )
@@ -1638,7 +1638,7 @@ function Ze(r, e, o, n) {
     p = i >= 120 ? `${Math.round(i / 60)}h` : `${i}m`,
     w = e.record.cliVersion && gr.test(e.record.cliVersion) ? e.record.cliVersion : "unrecognized",
     d = e.isVersionStale
-      ? `, worker ${w} (daemon ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION})`
+      ? `, worker ${w} (daemon ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION})`
       : "";
   return (r(`bg retire ${e.record.short}: ${o.cause}, idle ${p}${d}${n ? ` [${n}]` : ""}`), !0);
 }
@@ -2064,7 +2064,7 @@ async function At(r) {
     a = await Le(o);
   (a.write(
     "supervisor",
-    `\u2500\u2500\u2500 daemon start \u2500\u2500\u2500 version=${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} pid=${process.pid} origin=${n}`,
+    `\u2500\u2500\u2500 daemon start \u2500\u2500\u2500 version=${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION} pid=${process.pid} origin=${n}`,
   ),
     Wm());
   let I = await zh(F_e, D),
@@ -2135,7 +2135,7 @@ async function At(r) {
         FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
         BUILD_TIME: "2026-09-02T18:43:49Z",
         GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
         DD_SOURCEMAP_GROUP: "default",
       }.VERSION,
       jsonPath: e,
@@ -2188,7 +2188,7 @@ async function At(r) {
               BUILD_TIME: "2026-09-02T18:43:49Z",
               GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
               HOOKS_WORKER_URL:
-                "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
               DD_SOURCEMAP_GROUP: "default",
             }.VERSION,
         });
@@ -3287,13 +3287,13 @@ async function ta(r, e) {
           FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
           BUILD_TIME: "2026-09-02T18:43:49Z",
           GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d",
-          HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+          HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js",
           DD_SOURCEMAP_GROUP: "default",
         }.VERSION
       ) {
         (j(""),
           j(
-            `warning: running daemon is ${k.version}, but this claude is ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
+            `warning: running daemon is ${k.version}, but this claude is ${{ ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues", PACKAGE_URL: "@anthropic-ai/claude-code", README_URL: "https://code.claude.com/docs/en/overview", VERSION: "2.1.259", FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues", BUILD_TIME: "2026-09-02T18:43:49Z", GIT_SHA: "9b549c8d1c72e407ea9d3af3b9d5e50da794ec4d", HOOKS_WORKER_URL: "./src/plugins/functionHooks/hooks-worker/hooks-worker.js", DD_SOURCEMAP_GROUP: "default" }.VERSION}`,
           ));
         let K = (await cF()) ? "claude daemon stop" : "claude daemon stop --any";
         j(`  run \`${K}\` to pick up the new version`);
