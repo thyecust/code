@@ -1,4 +1,4 @@
-Anti-patterns - what goes wrong
+# Anti-patterns - what goes wrong
 
 Check every chart against this list. If your output matches an entry, it is wrong -
 fix it before shipping. These are real failure modes, each caught in shipping

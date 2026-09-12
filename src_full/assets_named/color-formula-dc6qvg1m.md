@@ -1,4 +1,4 @@
-Color formula
+# Color formula
 
 Color is **not hand-picked**. Every chart color does exactly one of four jobs, and a
 palette is legal only if it passes six checks. The checks are the product - they are

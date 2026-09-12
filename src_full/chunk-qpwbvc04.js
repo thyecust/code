@@ -32141,16 +32141,13 @@ var V2n = H(function (c1l, q2n) {
   q2n.exports = C4o.computerUse;
 });
 var Uir = H(function (eIc, $os) {
-  // $os.exports = ke("./_MISSING/simple_plan-c1nffcyk.txt"); // thy
-  $os.exports = ke("./assets_named/thy_missing.md")
+  $os.exports = ke("./assets_named/simple_plan-c1nffcyk.txt");
 });
 var Hir = H(function (tIc, Bos) {
-//   Bos.exports = ke("./_MISSING/visual_plan-169gvcqt.txt"); // thy
-  Bos.exports = ke("./assets_named/thy_missing.md");
+  Bos.exports = ke("./assets_named/visual_plan-169gvcqt.txt");
 });
 var Wir = H(function (nIc, Uos) {
-//   Uos.exports = ke("./_MISSING/three_subagents_with_critique-t1zec1f6.txt"); // thy
-  Uos.exports = ke("./assets_named/thy_missing.md");
+  Uos.exports = ke("./assets_named/three_subagents_with_critique-t1zec1f6.txt");
 });
 import { lstat as smr, readdir as iRt } from "fs/promises";
 import {

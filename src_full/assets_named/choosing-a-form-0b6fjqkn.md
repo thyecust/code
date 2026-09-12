@@ -1,4 +1,4 @@
-Choosing a form
+# Choosing a form
 
 Decide this **before** color. The data's job picks the form - and sometimes the
 right form is not a chart.

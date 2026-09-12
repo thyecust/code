@@ -1,4 +1,4 @@
-Components - the pieces a chart is made of
+# Components - the pieces a chart is made of
 
 A chart is built from these parts, assembled in plain HTML/SVG. Tier 0 is the
 foundation everything mounts on; the System tier is what makes the method
