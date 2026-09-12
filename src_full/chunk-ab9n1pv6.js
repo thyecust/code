@@ -7,16 +7,16 @@
 // (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
 
 // Version: 2.1.259
-import "./chunk-x1rrg5j2.js";
+import { rc } from "./chunk-x1rrg5j2.js";
 import "./chunk-jdw11prg.js";
 import "./chunk-56nvyfje.js";
 import "./chunk-1mrhsd7s.js";
-import "./chunk-x722nt0q.js";
 import "./chunk-kn2qhfka.js";
+import "./chunk-m7w5m1w6.js";
+import { Jl, zf } from "./chunk-x722nt0q.js";
 import "./chunk-55w4bsdv.js";
 import "./chunk-9fysw8jv.js";
 import "./chunk-m92n5xra.js";
-import "./chunk-m7w5m1w6.js";
 import "./chunk-058caznt.js";
 import "./chunk-97tbrkcc.js";
 import "./chunk-fzpv8ev5.js";
@@ -80,20 +80,46 @@ import "./chunk-55t63zqr.js";
 import "./chunk-j2rxdvy0.js";
 import "./chunk-0xd0k64r.js";
 import "./chunk-1qpkzqbm.js";
-import { xc } from "./chunk-hnqd864x.js";
+import { DG, Jq, vS, NA } from "./chunk-qjj8swk2.js";
+import { lSn } from "./chunk-wfap5c8g.js";
 import "./chunk-zc7jwbz1.js";
 import "./chunk-50etkfry.js";
 import "./chunk-c6eb44np.js";
 import "./chunk-nc8ww32a.js";
 import "./chunk-my1n9ey3.js";
 import "./chunk-v10h0yg2.js";
-var o = {
+function e() {
+  if (vS()) return !0;
+  try {
+    return (
+      DG() &&
+      !NA() &&
+      !Jq() &&
+      Jl().source === "none" &&
+      zf({ skipRetrievingKeyFromApiKeyHelper: !0 }).source === "none" &&
+      !lSn.isC4EUpsellCommandEnabled()
+    );
+  } catch {
+    return !1;
+  }
+}
+var r = {
     type: "local-jsx",
-    name: "workflows",
-    aliases: [],
-    description: "Browse running and completed workflows",
-    isEnabled: () => xc(),
+    name: "remote-control",
+    aliases: ["rc"],
+    get description() {
+      return rc()
+        ? "Disconnect Remote Control"
+        : "Control this session from your phone or claude.ai/code";
+    },
+    get argumentHint() {
+      return rc() ? void 0 : "[name]";
+    },
+    isEnabled: e,
+    get isHidden() {
+      return !vS();
+    },
     immediate: !0,
   },
-  m = o;
-export { m as default };
+  s = r;
+export { s as default };

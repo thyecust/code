@@ -7,25 +7,25 @@
 // (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
 
 // Version: 2.1.259
+import "./chunk-x722nt0q.js";
 import "./chunk-x1rrg5j2.js";
 import "./chunk-jdw11prg.js";
 import "./chunk-56nvyfje.js";
 import "./chunk-1mrhsd7s.js";
-import "./chunk-9f9fskgc.js";
-import "./chunk-97tbrkcc.js";
-import { _, f, g } from "./chunk-spz20jb6.js";
-import "./chunk-x722nt0q.js";
 import "./chunk-kn2qhfka.js";
 import "./chunk-55w4bsdv.js";
 import "./chunk-9fysw8jv.js";
 import "./chunk-m92n5xra.js";
 import "./chunk-m7w5m1w6.js";
 import "./chunk-058caznt.js";
+import "./chunk-97tbrkcc.js";
 import "./chunk-fzpv8ev5.js";
 import "./chunk-xmrr4sh8.js";
 import "./chunk-ras23w04.js";
 import "./chunk-6rkpsn9e.js";
 import "./chunk-ck0tqv1m.js";
+import "./chunk-9f9fskgc.js";
+import "./chunk-spz20jb6.js";
 import "./chunk-616tsvrd.js";
 import "./chunk-n8g979s0.js";
 import "./chunk-mxy52vze.js";
@@ -79,243 +79,21 @@ import "./chunk-3r19kwqx.js";
 import "./chunk-55t63zqr.js";
 import "./chunk-j2rxdvy0.js";
 import "./chunk-0xd0k64r.js";
-import "./chunk-bbpye6w7.js";
-import "./chunk-abnm2sa9.js";
-import "./chunk-9sjvfnzx.js";
-import "./chunk-dz1fj2ka.js";
-import "./chunk-xz3v8y7y.js";
-import "./chunk-r8hc3n2z.js";
-import "./chunk-5rcp9861.js";
-import "./chunk-t387wqyr.js";
-import "./chunk-7bh7nxpg.js";
-import "./chunk-qyqph83r.js";
-import { CB, IB, a5, Lp, Aa } from "./chunk-qpwbvc04.js";
-import "./chunk-ksctmzwy.js";
-import "./chunk-w75z743m.js";
-import "./chunk-30q5ynkm.js";
-import "./chunk-nt36bgfs.js";
-import "./chunk-6q0mr3fq.js";
-import "./chunk-mrsbyrhq.js";
-import "./chunk-40xnyyhy.js";
-import "./chunk-1qpkzqbm.js";
-import "./chunk-1k9bsfa7.js";
-import "./chunk-cezzeybd.js";
-import "./chunk-dtz7ymrp.js";
-import "./chunk-8nj3fpx9.js";
-import "./chunk-wkxp81p6.js";
-import "./chunk-zwtg7j89.js";
-import "./chunk-npdpr5xp.js";
-import "./chunk-f1ybk250.js";
-import "./chunk-qjj8swk2.js";
-import "./chunk-tkq0r7ym.js";
-import "./chunk-zw75zfcp.js";
-import "./chunk-jkrywj2s.js";
-import "./chunk-c5577t1e.js";
-import "./chunk-eza32dw3.js";
-import "./chunk-a33zz456.js";
-import "./chunk-hnqd864x.js";
-import "./chunk-hrhk4q9h.js";
-import "./chunk-11mcqc6q.js";
-import "./chunk-5gp3752w.js";
-import "./chunk-vpt6j0hj.js";
-import "./chunk-gbnf6vz0.js";
-import "./chunk-bqzk1zdc.js";
-import "./chunk-sm4f0pvs.js";
-import "./chunk-1q5tty9h.js";
-import "./chunk-zj5hwn6k.js";
-import "./chunk-0h1h2vpe.js";
-import "./chunk-jqjjqb8p.js";
-import "./chunk-jtegkk17.js";
-import "./chunk-6dcxrmbt.js";
-import "./chunk-svmkhj92.js";
-import "./chunk-dybqhddz.js";
-import "./chunk-31rmjnrq.js";
-import "./chunk-q0fs2qb2.js";
-import "./chunk-esn2chqn.js";
-import "./chunk-1fhzzx7h.js";
-import "./chunk-321z9ran.js";
-import "./chunk-vvzgt3y1.js";
-import "./chunk-9tnnrncs.js";
-import "./chunk-1kx3xrw0.js";
-import "./chunk-9fjy6xex.js";
-import "./chunk-b4cswg8c.js";
-import "./chunk-rnzbwgja.js";
-import "./chunk-mq6t5gsy.js";
-import "./chunk-0f1244y5.js";
-import "./chunk-yj7edqzj.js";
-import "./chunk-a3w4apvy.js";
-import "./chunk-bzxfr890.js";
-import "./chunk-71edvt4b.js";
-import "./chunk-31k5d81d.js";
-import "./chunk-s98sa0gn.js";
-import "./chunk-yz9ewb10.js";
-import "./chunk-meget4pa.js";
-import "./chunk-b9h3hrm9.js";
-import "./chunk-jrks771b.js";
-import "./chunk-m97fmp5a.js";
-import "./chunk-m1g84jsb.js";
-import "./chunk-y91b9t7k.js";
-import "./chunk-nh5b9j9c.js";
-import "./chunk-qpqhpjnf.js";
-import "./chunk-t8rh9pbw.js";
-import "./chunk-wyqz2xfr.js";
-import "./chunk-bzm4f2ge.js";
-import "./chunk-7b08b87y.js";
-import "./chunk-0697cd2s.js";
-import "./chunk-8gvda1c5.js";
-import "./chunk-752tnqtv.js";
-import "./chunk-6nznq4h0.js";
-import "./chunk-075s54dh.js";
-import "./chunk-pgmqkm8j.js";
-import "./chunk-cj0gpwwk.js";
-import "./chunk-b3pk8jsy.js";
-import "./chunk-xxq66zap.js";
-import "./chunk-67zd0pq0.js";
-import "./chunk-13k2svs7.js";
-import "./chunk-kxcfgh7d.js";
-import "./chunk-jea0jsvq.js";
-import "./chunk-f7czbtwe.js";
-import "./chunk-grn2cpxb.js";
-import "./chunk-s2qv9t07.js";
-import "./chunk-rzhk9vzz.js";
-import "./chunk-h3nnndyy.js";
-import "./chunk-68asg28d.js";
-import "./chunk-at3x5y7v.js";
-import "./chunk-wfap5c8g.js";
-import "./chunk-xdnjqx4p.js";
-import { cVe } from "./chunk-hpwwgy4t.js";
-import "./chunk-4amf009w.js";
-import "./chunk-zbjsms1x.js";
-import "./chunk-gt0sz7qx.js";
-import "./chunk-8cb3kpz7.js";
-import "./chunk-kvmgr8kf.js";
-import "./chunk-gyc9r9jx.js";
-import "./chunk-fpm5782j.js";
-import "./chunk-g41jh2m0.js";
-import "./chunk-mz0qwadn.js";
-import "./chunk-eft7b88m.js";
-import "./chunk-nzscmy2v.js";
-import "./chunk-e4vwkrtj.js";
-import "./chunk-6dth79yw.js";
-import "./chunk-gj0499cq.js";
-import "./chunk-szzsnrz5.js";
-import "./chunk-pq20xdar.js";
-import "./chunk-h9mewq95.js";
-import "./chunk-a3vshzn8.js";
-import "./chunk-3e1zwnk7.js";
-import "./chunk-7bfx680p.js";
-import "./chunk-4796xb9w.js";
-import "./chunk-31e4aq9f.js";
-import "./chunk-90gearh2.js";
-import "./chunk-wtntbnrk.js";
-import "./chunk-mh620fe5.js";
-import "./chunk-h2yhfh1h.js";
-import "./chunk-y0c7xssj.js";
-import "./chunk-7nw1s99d.js";
-import "./chunk-f6ht09n5.js";
-import "./chunk-vckrj367.js";
+import { Ko } from "./chunk-svmkhj92.js";
 import "./chunk-zc7jwbz1.js";
 import "./chunk-50etkfry.js";
 import "./chunk-c6eb44np.js";
 import "./chunk-nc8ww32a.js";
 import "./chunk-my1n9ey3.js";
 import "./chunk-v10h0yg2.js";
-import "./chunk-5m6nm8br.js";
-async function P(e) {
-  if (
-    !e.messages.some(
-      (s) =>
-        (s.type === "assistant" && !s.isApiErrorMessage && !IB(s)) ||
-        (s.type === "user" && s.isCompactSummary) ||
-        (a5(s) && !CB(Lp(s) ?? "")),
-    )
-  )
-    return null;
-  let [
-      { fetchSystemPromptParts: a },
-      { getToolPermissionContext: n },
-      { getMainLoopModel: t, getRuntimeMainLoopModel: o },
-      { asSystemPrompt: d },
-    ] = await Promise.all([
-      import("./chunk-7r79ksq3.js"),
-      import("./chunk-e6tn514h.js"),
-      import("./chunk-6fxmdt7c.js"),
-      import("./chunk-ywtp28pj.js"),
-    ]),
-    l = n(e),
-    m = o({ permissionMode: l.mode, mainLoopModel: t() }),
-    { customSystemPrompt: r, appendSystemPrompt: p } = e.options,
-    {
-      defaultSystemPrompt: u,
-      userContext: y,
-      systemContext: C,
-    } = await a({
-      session: e.session,
-      tools: e.options.tools,
-      mainLoopModel: m,
-      additionalWorkingDirectories: Array.from(l.additionalWorkingDirectories.keys()),
-      customSystemPrompt: r,
-      excludeDynamicSections: e.options.excludeDynamicSections,
-      cacheBreakerPhrase: e.options.cacheBreakerPhrase,
-      analysisOnly: !0,
-      storageV5: e.storageV5,
-      credentials: e.credentials,
-    }),
-    h = d([...(typeof r === "string" ? [r] : Array.isArray(r) ? r : u), ...(p ? [p] : [])]),
-    c = e.messages.at(-1),
-    k = Aa(
-      c?.type === "assistant" && c.message.stop_reason === null
-        ? e.messages.slice(0, -1)
-        : e.messages,
-    );
-  return {
-    systemPrompt: h,
-    userContext: y,
-    systemContext: C,
-    toolUseContext: { ...e, options: { ...e.options, mainLoopModel: m } },
-    forkContextMessages: k,
-    advisorModel: e.getAdvisorSetting(),
-  };
-}
-var S = async (e, i) => {
-    let a = !1,
-      n = !1,
-      t = await cVe(i.abortController.signal, async () => {
-        try {
-          let o = await P(i);
-          return ((a = o !== null), o);
-        } catch (o) {
-          throw ((n = !0), o);
-        }
-      });
-    switch (t.kind) {
-      case "ok":
-        if (t.capped) g("recap_command", "capped", { fallback_params: a });
-        else _("recap_command", { fallback_params: a });
-        return { type: "text", value: t.text };
-      case "api-error":
-        return (
-          f("recap_command", "api_error", { fallback_params: a }),
-          { type: "text", value: t.text }
-        );
-      case "no-turn":
-        return { type: "text", value: "Nothing to recap yet \u2014 send a message first." };
-      case "aborted":
-        return { type: "text", value: "Recap cancelled." };
-      case "failed":
-        return (
-          f("recap_command", n ? "fallback_rebuild_failed" : "failed", { fallback_params: a }),
-          { type: "text", value: "Couldn't generate a recap. Run with --debug for details." }
-        );
-    }
-  },
-  b = {
+var s = {
     type: "local",
-    name: "recap",
-    description: "Generate a one-line session recap now",
+    name: "list-agents",
+    aliases: ["peers"],
+    description: "List subagents, teammates, and other Claude sessions you can message",
     supportsNonInteractive: !0,
-    thinClientDispatch: "post-text",
-    load: () => Promise.resolve({ call: S }),
+    isEnabled: () => Ko(),
+    load: () => import("./chunk-epb6q3tb.js"),
   },
-  A = b;
-export { A as default };
+  a = s;
+export { a as default };
