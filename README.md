@@ -14,6 +14,8 @@ Anthropic 编写了如此优秀的代码，今天我们的生活和工作都离�
 
 可以参考 https://deepwiki.com/thyecust/code .
 
+也可参考 https://code.claude.com/docs/en/whats-new 和 [Whats-new-impl.md](./WHATS-NEW-IMPL.md) .
+
 ## 如何在二进制中提取文件
 
 静态提取，尝试常见的编码，如 `UTF-16LE`.
