@@ -14,10 +14,8 @@ var e = ke("./assets/claude-tag-dht2qzjm.md");
 var t = ke("./assets/live-sources-pvws3ftv.md");
 var a = "./assets/plugin-eval";
 var n = et(a, import.meta.dirname);
-// var o = ke("./_MISSING/recent-changes-8vv0qw8q.md"); // thy
-var o = ke("./assets_named/thy_missing.md");
-// var s = ke("./_MISSING/SKILL-fqy8sbab.md"); // thy
-var s = ke("./assets_named/thy_missing.md");
+var o = ke("./assets_named/recent-changes-8vv0qw8q.md");
+var s = ke("./assets_named/SKILL-fqy8sbab.md");
 var S = s,
   E = {
     "references/claude-tag.md": e,

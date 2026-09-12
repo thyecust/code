@@ -94,10 +94,8 @@ import "./chunk-v10h0yg2.js";
 import { ke } from "./chunk-qyvz15br.js";
 import { readFileSync as S } from "fs";
 import { join as u } from "path";
-// var g = ke("./_MISSING/loopAutonomousPreamble-07qcyhv4.md"); // thy
-var g = ke("./assets_named/thy_missing.md");
-// var y = ke("./_MISSING/loopAutonomousPreamblePersistent-3zqtkrvg.md"); // thy
-var y = ke("./assets_named/thy_missing.md");
+var g = ke("./assets_named/loopAutonomousPreamble-07qcyhv4.md");
+var y = ke("./assets_named/loopAutonomousPreamblePersistent-3zqtkrvg.md");
 var re = g;
 function m() {
   if (a.CLAUDE_CODE_LOOP_PERSISTENT) return !0;

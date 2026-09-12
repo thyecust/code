@@ -8,7 +8,6 @@
 
 // Version: 2.1.259
 import { ke } from "./chunk-qyvz15br.js";
-// var e = ke("./_MISSING/SKILL-nrz66j7x.md"); // thy
-var e = ke("./assets_named/thy_missing.md");
+var e = ke("./assets_named/SKILL-nrz66j7x.md");
 var n = e;
 export { n as SKILL_MD };

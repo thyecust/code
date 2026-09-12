@@ -23,7 +23,7 @@ import "./chunk-ras23w04.js";
 import { NKt, B7, et } from "./chunk-cd704anb.js";
 var D = "./assets/SKILL";
 var t = et(D, import.meta.dirname);
-var H = "./_MISSING/payload.template.html.asset";
+var H = "./assets_named/payload.template.html.asset";
 var Q = "./assets/seed-canvas.mjs";
 var B = et(Q, import.meta.dirname);
 var l = t,

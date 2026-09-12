@@ -9,8 +9,7 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var t = ke("./_MISSING/SKILL-e1sgkfee.md"); // thy
-var t = ke("./assets_named/thy_missing.md");
+var t = ke("./assets_named/SKILL-e1sgkfee.md");
 var a = "./assets/artifact-plan.html";
 var e = et(a, import.meta.dirname);
 var d = t,

@@ -12,8 +12,7 @@ import { ke } from "./chunk-qyvz15br.js";
 var e = "./assets/component-schemas";
 var t = et(e, import.meta.dirname);
 var n = ke("./assets/example-plugins-9n8v6pe1.md");
-// var o = ke("./_MISSING/mcp-servers-chmkz450.md"); // thy
-var o = ke("./assets_named/thy_missing.md");
+var o = ke("./assets_named/mcp-servers-chmkz450.md");
 var i = ke("./assets/search-strategies-4qam2bp6.md");
 var s = "./assets/SKILL";
 var r = et(s, import.meta.dirname);

@@ -9,21 +9,15 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-// var t = ke("./_MISSING/anti-patterns-c1rmzbdk.md"); // thy
-var t = ke("./assets_named/thy_missing.md");
-// var a = ke("./_MISSING/choosing-a-form-0b6fjqkn.md"); // thy
-var a = ke("./assets_named/thy_missing.md");
-// var s = ke("./_MISSING/color-formula-dc6qvg1m.md"); // thy
-var s = ke("./assets_named/thy_missing.md");
-// var r = ke("./_MISSING/components-vtwwx2hf.md"); // thy
-var r = ke("./assets_named/thy_missing.md");
+var t = ke("./assets_named/anti-patterns-c1rmzbdk.md");
+var a = ke("./assets_named/choosing-a-form-0b6fjqkn.md");
+var s = ke("./assets_named/color-formula-dc6qvg1m.md");
+var r = ke("./assets_named/components-vtwwx2hf.md");
 var o = ke("./assets/interaction-d4xwjtb3.md");
-// var i = ke("./_MISSING/marks-and-anatomy-j3qtdh2t.md"); // thy
-var i = ke("./assets_named/thy_missing.md");
+var i = ke("./assets_named/marks-and-anatomy-j3qtdh2t.md");
 var n = "./assets/palette";
 var l = et(n, import.meta.dirname);
-// var h = ke("./_MISSING/SKILL-8zd8x5rj.md"); // thy
-var h = ke("./assets_named/thy_missing.md");
+var h = ke("./assets_named/SKILL-8zd8x5rj.md");
 var d = (e) => (typeof e === "string" ? e : e.default),
   v = import.meta.require("./chunk-v9n9jqnh.js"),
   w = import.meta.require("./chunk-qe78j69w.js"),

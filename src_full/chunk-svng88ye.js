@@ -11,8 +11,7 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = "./assets/SKILL";
 var t = et(e, import.meta.dirname);
-// var a = ke("./_MISSING/template-eg8004mh.md"); // thy
-var a = ke("./assets_named/thy_missing.md");
+var a = ke("./assets_named/template-eg8004mh.md");
 var p = t,
   m = a;
 export { p as SKILL_MD, m as TEMPLATE_MD };
