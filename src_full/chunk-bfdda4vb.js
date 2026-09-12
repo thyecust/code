@@ -9,7 +9,6 @@
 // Version: 2.1.259
 import { H, ke } from "./chunk-qyvz15br.js";
 var FOn = H(function (A, L) {
-  // L.exports = ke("./_MISSING/audio-capture.node"); // thy
   L.exports = ke("./audio-capture.node");
 });
 export { FOn };

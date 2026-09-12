@@ -9,7 +9,6 @@
 // Version: 2.1.259
 import { H, ke } from "./chunk-qyvz15br.js";
 var BOn = H(function (A, L) {
-  // L.exports = ke("./_MISSING/clipboard-napi.node"); // thy
   L.exports = ke("./clipboard-napi.node");
 });
 export { BOn };

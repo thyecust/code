@@ -9,7 +9,6 @@
 // Version: 2.1.259
 import { H, ke } from "./chunk-qyvz15br.js";
 var NOn = H(function (A, L) {
-  // L.exports = ke("./_MISSING/image-processor.node"); // thy
   L.exports = ke("./image-processor.node");
 });
 export { NOn };
