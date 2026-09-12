@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var a = "./assets/docs.mjs";
+var a = "./assets/docs.mjs-0d218ce7.txt";
 var t = et(a, import.meta.dirname);
 export { t as default };

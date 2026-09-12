@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var i = "./assets/resync.mjs";
+var i = "./assets/resync.mjs-4ec2827e.txt";
 var d = et(i, import.meta.dirname);
 export { d as default };

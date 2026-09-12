@@ -11,7 +11,7 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets/cli-f091jpwx.md");
 var t = ke("./assets/server-6cyhjq09.md");
-var s = "./assets/SKILL";
+var s = "./assets/SKILL-cf37e4b8.md";
 var i = et(s, import.meta.dirname);
 var g = i,
   y = { "examples/cli.md": e, "examples/server.md": t };

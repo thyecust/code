@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var e = "./assets/remote-diff.mjs";
+var e = "./assets/remote-diff.mjs-a2ecedbc.txt";
 var u = et(e, import.meta.dirname);
 export { u as default };

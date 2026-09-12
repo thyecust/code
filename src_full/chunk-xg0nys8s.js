@@ -27,11 +27,11 @@ var d = H(function (pe, v) {
 var f = H(function (me, k) {
   k.exports = ke("./assets_named/probe.mjs-24tedw09.txt");
 });
-var s = "./assets/SKILL";
+var s = "./assets/SKILL-057df712.md";
 var o = et(s, import.meta.dirname);
-var r = "./assets/SKILL";
+var r = "./assets/SKILL-b6859017.md";
 var n = et(r, import.meta.dirname);
-var i = "./assets/SKILL";
+var i = "./assets/SKILL-76b8b2a9.md";
 var a = et(i, import.meta.dirname);
 var e = (t) => (typeof t === "string" ? t : t.default),
   x = import.meta.require("./chunk-zgfrba7h.js"),

@@ -15,7 +15,7 @@ var s = ke("./assets_named/color-formula-dc6qvg1m.md");
 var r = ke("./assets_named/components-vtwwx2hf.md");
 var o = ke("./assets/interaction-d4xwjtb3.md");
 var i = ke("./assets_named/marks-and-anatomy-j3qtdh2t.md");
-var n = "./assets/palette";
+var n = "./assets/palette-90f85f6c.md";
 var l = et(n, import.meta.dirname);
 var h = ke("./assets_named/SKILL-8zd8x5rj.md");
 var d = (e) => (typeof e === "string" ? e : e.default),

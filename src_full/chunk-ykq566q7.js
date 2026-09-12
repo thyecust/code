@@ -10,7 +10,7 @@
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets/cli-40vh1c3p.md");
-var t = "./assets/electron";
+var t = "./assets/electron-8035775b.md";
 var a = et(t, import.meta.dirname);
 var s = ke("./assets/library-yywvyb11.md");
 var n = ke("./assets_named/playwright-g4wwbqeh.md");

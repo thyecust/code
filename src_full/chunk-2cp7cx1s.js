@@ -12,7 +12,7 @@ import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets/claude-tag-dht2qzjm.md");
 var t = ke("./assets/live-sources-pvws3ftv.md");
-var a = "./assets/plugin-eval";
+var a = "./assets/plugin-eval-a0f9bd9e.md";
 var n = et(a, import.meta.dirname);
 var o = ke("./assets_named/recent-changes-8vv0qw8q.md");
 var s = ke("./assets_named/SKILL-fqy8sbab.md");

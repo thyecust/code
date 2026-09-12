@@ -9,12 +9,12 @@
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
-var e = "./assets/component-schemas";
+var e = "./assets/component-schemas-7fabf82f.md";
 var t = et(e, import.meta.dirname);
 var n = ke("./assets/example-plugins-9n8v6pe1.md");
 var o = ke("./assets_named/mcp-servers-chmkz450.md");
 var i = ke("./assets/search-strategies-4qam2bp6.md");
-var s = "./assets/SKILL";
+var s = "./assets/SKILL-0e9ec89e.md";
 var r = et(s, import.meta.dirname);
 var x = r,
   A = {

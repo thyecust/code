@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var a = "./assets/permissions_external";
+var a = "./assets/permissions_external-0f27b1d1.txt";
 var r = et(a, import.meta.dirname);
 export { r as default };

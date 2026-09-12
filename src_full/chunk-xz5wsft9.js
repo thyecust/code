@@ -10,7 +10,7 @@
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var t = ke("./assets_named/SKILL-e1sgkfee.md");
-var a = "./assets/artifact-plan.html";
+var a = "./assets/artifact-plan.html-1506d178.txt";
 var e = et(a, import.meta.dirname);
 var d = t,
   m = e,

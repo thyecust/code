@@ -419,7 +419,7 @@ je(l, {
   pluginDeclarationsOf: () => po,
 });
 var io = "claude-code.d.ts";
-var X = "./assets/claude-code.d.ts";
+var X = "./assets/claude-code.d.ts-11e267b8.txt";
 var G = et(X, import.meta.dirname);
 var P = G;
 var po = (o, i) =>

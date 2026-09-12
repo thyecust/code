@@ -8,11 +8,11 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var R = "./assets/SKILL";
+var R = "./assets/SKILL-35172b60.md";
 var m = et(R, import.meta.dirname);
-var H = "./assets/artifact-workshop.html";
+var H = "./assets/artifact-workshop.html-9689f42b.txt";
 var d = et(H, import.meta.dirname);
-var t = "./assets/workshop-page.html";
+var t = "./assets/workshop-page.html-68c111f1.txt";
 var P = et(t, import.meta.dirname);
 var D = m,
   E = d,

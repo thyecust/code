@@ -10,7 +10,7 @@
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets_named/SKILL-s3202xee.md");
-var t = "./assets/template.html";
+var t = "./assets/template.html-29543a01.txt";
 var a = et(t, import.meta.dirname);
 var p = { doc: e },
   m = { doc: { "template.html": a } };

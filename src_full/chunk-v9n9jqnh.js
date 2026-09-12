@@ -8,6 +8,6 @@
 
 // Version: 2.1.259
 import { et } from "./chunk-cd704anb.js";
-var e = "./assets/validate_palette.js";
+var e = "./assets/validate_palette.js-552302a4.txt";
 var T = et(e, import.meta.dirname);
 export { T as default };

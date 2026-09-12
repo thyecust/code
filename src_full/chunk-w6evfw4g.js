@@ -10,15 +10,15 @@
 import { et } from "./chunk-cd704anb.js";
 import { ke } from "./chunk-qyvz15br.js";
 var e = ke("./assets/SKILL-8cc0kwr3.md");
-var t = "./assets/template.html";
+var t = "./assets/template.html-cfc12d66.txt";
 var a = et(t, import.meta.dirname);
 var r = ke("./assets/SKILL-5vqnvygj.md");
-var o = "./assets/template.html";
+var o = "./assets/template.html-cad26093.txt";
 var s = et(o, import.meta.dirname);
 var i = ke("./assets/SKILL-sq87gt02.md");
 var n = ke("./assets_named/template.html-j5g90adz.txt");
 var l = ke("./assets/SKILL-z3x847gz.md");
-var h = "./assets/template.html";
+var h = "./assets_named/template.html-j5g90adz.txt";
 var d = et(h, import.meta.dirname);
 var Z = { dashboard: e, report: l, "data-table": r, explainer: i },
   F = {
