@@ -18,6 +18,80 @@ Anthropic 编写了如此优秀的代码，今天我们的生活和工作都离�
 
 ## 如何在二进制中提取文件
 
+以Windows为例。
+
+提取
+
+```powershell
+@echo off
+rem Re-extract the VFS from the claude.exe that ships inside the venv.
+rem Run this again whenever the SDK/CLI is upgraded.
+rem
+rem NOTE: keep ASCII-only. BUN_OPTIONS is split on spaces, so the repo path
+rem must not contain spaces.
+setlocal
+pushd "%~dp0.."
+set "ROOT=%CD%"
+set "BUNFS=%ROOT%\bunfs"
+set "CLAUDE=%ROOT%\.venv\Lib\site-packages\claude_agent_sdk\_bundled\claude.exe"
+popd
+
+if not exist "%CLAUDE%" (
+  echo [refresh] claude.exe not found: %CLAUDE%
+  exit /b 1
+)
+
+rem bun's BUN_OPTIONS parser strips backslashes, so forward slashes are required.
+set "HERE=%~dp0"
+set "HERE=%HERE:\=/%"
+set "DUMP_OUT=%BUNFS%\~BUN\root"
+set "BUN_OPTIONS=--preload %HERE%dump-all.js"
+
+echo [refresh] extracting from %CLAUDE%
+"%CLAUDE%" --version < NUL
+echo [refresh] done. B: will be (re)created on next launcher run.
+```
+
+启动
+
+```powershell
+@echo off
+rem Launch the code extracted from claude.exe directly with bun.
+rem
+rem The extracted code hardcodes absolute paths like B:/~BUN/root/... because
+rem bun-compiled binaries mount their embedded VFS at B:\~BUN\root on Windows.
+rem We subst B: to the unpacked directory, so the extracted code needs NO
+rem rewriting at all.
+rem
+rem subst only lives for the current logon session, so re-check every launch.
+rem
+rem NOTE: keep this file ASCII-only -- cmd.exe parses .cmd in the OEM codepage.
+
+setlocal
+pushd "%~dp0.."
+set "BUNFS=%CD%\bunfs"
+popd
+
+if not exist "%BUNFS%\~BUN\root\cli" (
+  echo [claude-bun] unpacked tree not found: %BUNFS%\~BUN\root
+  echo [claude-bun] re-run dump-all.js to extract it.
+  exit /b 1
+)
+
+if not exist "B:\~BUN\root\cli" (
+  subst B: "%BUNFS%"
+  if errorlevel 1 (
+    echo [claude-bun] "subst B:" failed -- drive B: may already be in use.
+    exit /b 1
+  )
+)
+
+bun "B:/~BUN/root/cli" %*
+exit /b %ERRORLEVEL%
+```
+
+## 旧：如何在二进制中提取文件
+
 静态提取，尝试常见的编码，如 `UTF-16LE`.
 
 动态提取，对bun可以使用这种方法
