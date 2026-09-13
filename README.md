@@ -49,7 +49,17 @@ set "BUN_OPTIONS=--preload %HERE%dump-all.js"
 
 echo [refresh] extracting from %CLAUDE%
 "%CLAUDE%" --version < NUL
-echo [refresh] done. B: will be (re)created on next launcher run.
+
+rem Prettier runs in place on the extracted chunks. Recovery is just re-running
+rem this script with --no-pretty: the dump always rewrites every file from the
+rem binary, so a bad format is never permanent.
+if /i "%~1"=="--no-pretty" goto :skippretty
+echo [refresh] formatting chunks with prettier
+bun "%~dp0prettier-all.js"
+if errorlevel 1 echo [refresh] prettier step failed (see above); chunks left as dumped
+:skippretty
+
+echo [refresh] done. B: will be (re)created on next launcher run。
 ```
 
 启动
