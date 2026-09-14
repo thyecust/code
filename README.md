@@ -18,153 +18,75 @@ Anthropic 编写了如此优秀的代码，今天我们的生活和工作都离�
 
 ## 如何在二进制中提取文件
 
-以Windows为例。
-
-提取
-
-```powershell
-@echo off
-rem Re-extract the VFS from the claude.exe that ships inside the venv.
-rem Run this again whenever the SDK/CLI is upgraded.
-rem
-rem NOTE: keep ASCII-only. BUN_OPTIONS is split on spaces, so the repo path
-rem must not contain spaces.
-setlocal
-pushd "%~dp0.."
-set "ROOT=%CD%"
-set "BUNFS=%ROOT%\bunfs"
-set "CLAUDE=%ROOT%\.venv\Lib\site-packages\claude_agent_sdk\_bundled\claude.exe"
-popd
-
-if not exist "%CLAUDE%" (
-  echo [refresh] claude.exe not found: %CLAUDE%
-  exit /b 1
-)
-
-rem bun's BUN_OPTIONS parser strips backslashes, so forward slashes are required.
-set "HERE=%~dp0"
-set "HERE=%HERE:\=/%"
-set "DUMP_OUT=%BUNFS%\~BUN\root"
-set "BUN_OPTIONS=--preload %HERE%dump-all.js"
-
-echo [refresh] extracting from %CLAUDE%
-"%CLAUDE%" --version < NUL
-
-rem Prettier runs in place on the extracted chunks. Recovery is just re-running
-rem this script with --no-pretty: the dump always rewrites every file from the
-rem binary, so a bad format is never permanent.
-if /i "%~1"=="--no-pretty" goto :skippretty
-echo [refresh] formatting chunks with prettier
-bun "%~dp0prettier-all.js"
-if errorlevel 1 echo [refresh] prettier step failed (see above); chunks left as dumped
-:skippretty
-
-echo [refresh] done. B: will be (re)created on next launcher run。
-```
-
-启动
-
-```powershell
-@echo off
-rem Launch the code extracted from claude.exe directly with bun.
-rem
-rem The extracted code hardcodes absolute paths like B:/~BUN/root/... because
-rem bun-compiled binaries mount their embedded VFS at B:\~BUN\root on Windows.
-rem We subst B: to the unpacked directory, so the extracted code needs NO
-rem rewriting at all.
-rem
-rem subst only lives for the current logon session, so re-check every launch.
-rem
-rem NOTE: keep this file ASCII-only -- cmd.exe parses .cmd in the OEM codepage.
-
-setlocal
-pushd "%~dp0.."
-set "BUNFS=%CD%\bunfs"
-popd
-
-if not exist "%BUNFS%\~BUN\root\cli" (
-  echo [claude-bun] unpacked tree not found: %BUNFS%\~BUN\root
-  echo [claude-bun] re-run dump-all.js to extract it.
-  exit /b 1
-)
-
-if not exist "B:\~BUN\root\cli" (
-  subst B: "%BUNFS%"
-  if errorlevel 1 (
-    echo [claude-bun] "subst B:" failed -- drive B: may already be in use.
-    exit /b 1
-  )
-)
-
-bun "B:/~BUN/root/cli" %*
-exit /b %ERRORLEVEL%
-```
-
-## 旧：如何在二进制中提取文件
-
-静态提取，尝试常见的编码，如 `UTF-16LE`.
-
-动态提取，对bun可以使用这种方法
-
-```bash
-BUN_OPTIONS="--preload .../vfs-dump-all.js" \
-  .venv/lib/python3.14/site-packages/claude_agent_sdk/_bundled/claude \
-  --version < /dev/null
-```
-
 ```javascript
-// 全量导出 bun 编译产物进程内的 /$bunfs/root/。
-//
-// 用法（WSL）：
-//   BUN_OPTIONS="--preload /mnt/c/.../vfs-dump-all.js" <claude> --version < /dev/null
-//
-// 这一步之后就不需要再对二进制做字节切分了：ke = import.meta.require，
-// 而 VFS 里的条目名 == 代码里 require 的路径，一一对应。
+// USE: BUN_OPTIONS="--preload ./preload.js" claude
 
-const fs = require("fs");
-const path = require("path");
+import fs from 'fs';
+import path from 'path';
 
-const ROOT = "/$bunfs/root";
-const OUT = "bunfs-dump/all";
+const OUT = 'out';
+const ROOTS = ['/$bunfs/root'];
 
-let names = [];
-try {
-  names = fs.readdirSync(ROOT);
-} catch (e) {
-  console.error(`[hook] 枚举失败: ${e.message}`);
-  process.exit(0);
+const root = ROOTS.find((r) => {
+    try {
+        fs.readdirSync(r);
+        return true;
+    } catch {
+        return false;
+    }
+})
+
+if (!root) {
+    throw new Error(`Could not find a valid root directory in ${ROOTS}`);
 }
 
-fs.mkdirSync(OUT, { recursive: true });
-
-let ok = 0,
-  fail = 0,
-  bytes = 0;
 const manifest = [];
-for (const n of names) {
-  const src = path.join(ROOT, n);
-  const dst = path.join(OUT, n);
+let files = 0, dirs = 0, bytes = 0, fail = 0;
+
+function walk(vfsPath, rel) {
+  let names;
   try {
-    const st = fs.statSync(src);
-    if (st.isDirectory()) {
-      manifest.push({ name: n, kind: "dir" });
-      continue;
-    }
-    const buf = fs.readFileSync(src);
-    fs.writeFileSync(dst, buf);
-    ok++;
-    bytes += buf.length;
-    manifest.push({ name: n, size: buf.length });
+    names = fs.readdirSync(vfsPath);
   } catch (e) {
     fail++;
-    manifest.push({ name: n, error: e.message });
+    manifest.push({ path: rel, error: `readdir: ${e.message}` });
+    return;
+  }
+  for (const name of names) {
+    const childVfs = vfsPath + "/" + name;
+    const childRel = rel ? rel + "/" + name : name;
+    let st;
+    try {
+      st = fs.statSync(childVfs);
+    } catch (e) {
+      fail++;
+      manifest.push({ path: childRel, error: `stat: ${e.message}` });
+      continue;
+    }
+    if (st.isDirectory()) {
+      dirs++;
+      manifest.push({ path: childRel, kind: "dir" });
+      fs.mkdirSync(path.join(OUT, childRel), { recursive: true });
+      walk(childVfs, childRel);
+      continue;
+    }
+    try {
+      const buf = fs.readFileSync(childVfs);
+      const dst = path.join(OUT, childRel);
+      fs.mkdirSync(path.dirname(dst), { recursive: true });
+      fs.writeFileSync(dst, buf);
+      files++;
+      bytes += buf.length;
+      manifest.push({ path: childRel, size: buf.length });
+    } catch (e) {
+      fail++;
+      manifest.push({ path: childRel, error: `read: ${e.message}` });
+    }
   }
 }
 
-fs.writeFileSync(
-  path.join(OUT, "_manifest.json"),
-  JSON.stringify({ count: names.length, ok, fail, bytes, entries: manifest }, null, 1),
-);
-console.error(`[hook] ${names.length} 项：成功 ${ok}，失败 ${fail}，共 ${(bytes / 1048576).toFixed(1)} MiB`);
-console.error(`[hook] -> ${OUT}`);
+walk(root, "");
+
+fs.writeFileSync(path.join(OUT, "manifest.json"), JSON.stringify(manifest, null, 2));
+
 ```
